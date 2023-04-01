@@ -1,0 +1,39 @@
+@font-face {
+  font-family: "InterV";
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../../public/fonts/Inter-Regular.woff2") format("woff2");
+}
+@font-face {
+  font-family: "InterV_medium";
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url("../../public/fonts/Inter-Medium.woff2") format("woff2");
+}
+.mainView {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  max-width: 1440px;
+  width: 80%;
+  margin: 0 auto;
+  flex-shrink: 2;
+  align-items: center;
+}
+.mainView .newsView {
+  display: flex;
+  flex-wrap: wrap;
+  align-self: center;
+  justify-content: center;
+  align-content: center;
+}
+.mainView .articleView {
+  flex-basis: 90%;
+  max-width: 80%;
+  margin-left: 2%; /* add margin to create space between articleView and categoryView */
+}
+.mainView .categoryView {
+  max-width: 18%; /* set max-width to 18% of parent container width */
+}/*# sourceMappingURL=App.module.css.map */

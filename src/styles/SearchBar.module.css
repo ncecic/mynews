@@ -1,0 +1,59 @@
+.searchBarView {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 1;
+}
+.searchBarView h1 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 39px;
+}
+.searchBarView h1 .MyPart {
+  color: #bb1e1e;
+}
+.searchBarView h1 .NewsPart {
+  color: #000;
+}
+.searchBarView .searchBar {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  background: #ffffff;
+  box-shadow: 0px 1px 2px -1px #c8cad1;
+  border-radius: 10px;
+  padding: 0.5rem;
+  width: 40vw;
+  height: 3vw;
+  justify-content: center;
+  align-items: center;
+}
+.searchBarView .searchBar input {
+  border-style: hidden;
+  width: 80%;
+  height: 90%;
+  flex: 1 1 auto;
+}
+.searchBarView .searchBar input:focus {
+  outline: none;
+}
+.searchBarView .searchBar button {
+  background: #bb1e1e;
+  border-radius: 6px;
+  font-size: 15px;
+  line-height: 20px;
+  /* identical to box height, or 133% */
+  height: 4vh;
+  flex: 1 1 auto;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.searchBarView .searchBar button:hover {
+  background: rgba(187, 30, 30, 0.7764705882);
+}/*# sourceMappingURL=SearchBar.module.css.map */

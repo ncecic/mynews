@@ -1,0 +1,1771 @@
+{
+  "status": "OK",
+  "copyright": "Copyright (c) 2023 The New York Times Company. All Rights Reserved.",
+  "section": "home",
+  "last_updated": "2023-04-01T11:51:00-04:00",
+  "num_results": 30,
+  "results": [
+    {
+      "section": "nyregion",
+      "subsection": "",
+      "title": "How Alvin Bragg Resurrected the Case Against Donald Trump",
+      "abstract": "A year ago, the investigation into the former president appeared from the outside to be over. But a series of crucial turning points led to this week’s indictment.",
+      "url": "https://www.nytimes.com/2023/03/31/nyregion/alvin-bragg-trump-investigation.html",
+      "uri": "nyt://article/265f7b12-5942-54bc-bf51-70198a5d1b4f",
+      "byline": "By Jonah E. Bromwich, Ben Protess and William K. Rashbaum",
+      "item_type": "Article",
+      "updated_date": "2023-04-01T10:07:43-04:00",
+      "created_date": "2023-03-31T21:58:46-04:00",
+      "published_date": "2023-03-31T21:58:46-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": ["Campaign Finance", "District Attorneys"],
+      "org_facet": ["Trump Organization"],
+      "per_facet": [
+        "Trump, Donald J",
+        "Bragg, Alvin",
+        "Clifford, Stephanie (1979- )",
+        "Cohen, Michael D (1966- )",
+        "Colangelo, Matthew",
+        "Vance, Cyrus R Jr",
+        "Weisselberg, Allen",
+        "Pomerantz, Mark F",
+        "Dunne, Carey R"
+      ],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2023/03/31/multimedia/31ny-trump-ticktock1-gztl/31ny-trump-ticktock1-gztl-superJumbo-v2.jpg",
+          "format": "Super Jumbo",
+          "height": 1381,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Alvin Bragg, the Manhattan district attorney, leaves his office after a grand jury indicted former President Donald J. Trump over a $130,000 hush-money payment to porn star Stormy Daniels.",
+          "copyright": "Dave Sanders for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2023/03/31/multimedia/31ny-trump-ticktock1-gztl/31ny-trump-ticktock1-gztl-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Alvin Bragg, the Manhattan district attorney, leaves his office after a grand jury indicted former President Donald J. Trump over a $130,000 hush-money payment to porn star Stormy Daniels.",
+          "copyright": "Dave Sanders for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2023/03/31/multimedia/31ny-trump-ticktock1-gztl/31ny-trump-ticktock1-gztl-thumbLarge-v2.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Alvin Bragg, the Manhattan district attorney, leaves his office after a grand jury indicted former President Donald J. Trump over a $130,000 hush-money payment to porn star Stormy Daniels.",
+          "copyright": "Dave Sanders for The New York Times"
+        }
+      ],
+      "short_url": "https://nyti.ms/40CLrFJ"
+    },
+    {
+      "section": "us",
+      "subsection": "politics",
+      "title": "Trump’s G.O.P. Rivals, Shielding Him, Reveal Their 2024 Predicament",
+      "abstract": "Many of Donald Trump’s potential opponents snapped into line behind him, showing just how hard it may be to persuade Republican voters to choose an alternative.",
+      "url": "https://www.nytimes.com/2023/04/01/us/politics/trump-desantis-republicans-2024.html",
+      "uri": "nyt://article/ae3037d4-aa62-5d70-bf54-4ef2ba273c35",
+      "byline": "By Michael C. Bender and Maggie Haberman",
+      "item_type": "Article",
+      "updated_date": "2023-04-01T03:00:06-04:00",
+      "created_date": "2023-04-01T03:00:06-04:00",
+      "published_date": "2023-04-01T03:00:06-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Presidential Election of 2024",
+        "Primaries and Caucuses",
+        "United States Politics and Government"
+      ],
+      "org_facet": ["Republican Party"],
+      "per_facet": [
+        "Trump, Donald J",
+        "DeSantis, Ron",
+        "Haley, Nikki R",
+        "Hutchinson, Asa",
+        "Pence, Mike"
+      ],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2023/03/31/multimedia/31trump-indicted-trump-2024-DeSantis-zqwg/31trump-indicted-trump-2024-DeSantis-zqwg-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 1365,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Rather than use the moment as a political opening, Gov. Ron DeSantis of Florida criticized the indictment of former President Donald J. Trump, going so far as to say he would try block his state from helping any extradition.",
+          "copyright": "Jordan Gale for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2023/03/31/multimedia/31trump-indicted-trump-2024-DeSantis-zqwg/31trump-indicted-trump-2024-DeSantis-zqwg-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Rather than use the moment as a political opening, Gov. Ron DeSantis of Florida criticized the indictment of former President Donald J. Trump, going so far as to say he would try block his state from helping any extradition.",
+          "copyright": "Jordan Gale for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2023/03/31/multimedia/31trump-indicted-trump-2024-DeSantis-zqwg/31trump-indicted-trump-2024-DeSantis-zqwg-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Rather than use the moment as a political opening, Gov. Ron DeSantis of Florida criticized the indictment of former President Donald J. Trump, going so far as to say he would try block his state from helping any extradition.",
+          "copyright": "Jordan Gale for The New York Times"
+        }
+      ],
+      "short_url": "https://nyti.ms/40xiTxr"
+    },
+    {
+      "section": "us",
+      "subsection": "",
+      "title": "Indicted and Running for Office? It Didn’t Begin With Trump.",
+      "abstract": "American politics has a long history of candidates who were indicted or convicted of crimes but sought office again.",
+      "url": "https://www.nytimes.com/2023/04/01/us/politicians-indicted-trump-rick-perry.html",
+      "uri": "nyt://article/ecd6cfdf-02a9-5885-aea5-bcdf11097444",
+      "byline": "By Richard Fausset",
+      "item_type": "Article",
+      "updated_date": "2023-04-01T05:00:25-04:00",
+      "created_date": "2023-04-01T05:00:25-04:00",
+      "published_date": "2023-04-01T05:00:25-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "United States Politics and Government",
+        "Corruption (Institutional)"
+      ],
+      "org_facet": [],
+      "per_facet": [
+        "Barry, Marion S Jr",
+        "Blagojevich, Rod R",
+        "Debs, Eugene Victor",
+        "Edwards, Edwin W",
+        "Ganim, Joseph P",
+        "Perry, Rick",
+        "Trump, Donald J"
+      ],
+      "geo_facet": ["Louisiana"],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2023/04/01/multimedia/01nat-politicians-indicted-1-qlgv/01nat-politicians-indicted-1-qlgv-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 1500,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "One of the most recent presidential candidates to run while under indictment was Rick Perry, the former governor of Texas, who sought the Republican nomination in the 2016 election.",
+          "copyright": "Eric Gay/Associated Press"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2023/04/01/multimedia/01nat-politicians-indicted-1-qlgv/01nat-politicians-indicted-1-qlgv-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "One of the most recent presidential candidates to run while under indictment was Rick Perry, the former governor of Texas, who sought the Republican nomination in the 2016 election.",
+          "copyright": "Eric Gay/Associated Press"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2023/04/01/multimedia/01nat-politicians-indicted-1-qlgv/01nat-politicians-indicted-1-qlgv-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "One of the most recent presidential candidates to run while under indictment was Rick Perry, the former governor of Texas, who sought the Republican nomination in the 2016 election.",
+          "copyright": "Eric Gay/Associated Press"
+        }
+      ],
+      "short_url": "https://nyti.ms/3ZsstAp"
+    },
+    {
+      "section": "world",
+      "subsection": "europe",
+      "title": "Venice Is Saved! Woe Is Venice.",
+      "abstract": "Produced by Mona Boshnaq",
+      "url": "https://www.nytimes.com/2023/04/01/world/europe/venice-mose-flooding.html",
+      "uri": "nyt://article/0b42a64e-4775-5ca6-8d31-262b47f0c54b",
+      "byline": "By Jason Horowitz, Emma Bubola and Laetitia Vancon",
+      "item_type": "Article",
+      "updated_date": "2023-04-01T10:09:14-04:00",
+      "created_date": "2023-04-01T05:00:52-04:00",
+      "published_date": "2023-04-01T05:00:52-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Water",
+        "Floods",
+        "Canals",
+        "Travel and Vacations",
+        "Border Barriers",
+        "Bribery and Kickbacks",
+        "Corruption (Institutional)",
+        "Global Warming",
+        "Politics and Government",
+        "Weather",
+        "Infrastructure (Public Works)",
+        "Levees and Dams",
+        "Fishing, Commercial",
+        "Fish and Other Marine Life",
+        "vis-photo"
+      ],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": ["Venice (Italy)"],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2023/04/01/world/01venice-vid/01venice-vid-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 1080,
+          "width": 1920,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": ""
+        },
+        {
+          "url": "https://static01.nyt.com/images/2023/04/01/world/01venice-vid/01venice-vid-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": ""
+        },
+        {
+          "url": "https://static01.nyt.com/images/2023/04/01/world/01venice-vid/01venice-vid-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": ""
+        }
+      ],
+      "short_url": "https://nyti.ms/42P47DE"
+    },
+    {
+      "section": "us",
+      "subsection": "",
+      "title": "Storms Kill at Least 10 as Tornadoes Tear Through Midwest and South",
+      "abstract": "Tornadoes in Arkansas injured at least 30 people. One person was killed and at least 28 others were hospitalized after a roof collapsed at a theater in Illinois.",
+      "url": "https://www.nytimes.com/2023/03/31/us/midwest-storms-flood-weather.html",
+      "uri": "nyt://article/1f3a4fbd-9514-5cf1-95fb-e43e2a19878c",
+      "byline": "By Gwen Moritz, McKenna Oxenden, Livia Albeck-Ripka and Mike Ives",
+      "item_type": "Article",
+      "updated_date": "2023-04-01T10:58:57-04:00",
+      "created_date": "2023-03-31T10:58:22-04:00",
+      "published_date": "2023-03-31T10:58:22-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": ["Floods", "Weather", "Rain", "States (US)", "Wind"],
+      "org_facet": [],
+      "per_facet": ["Biden, Joseph R Jr"],
+      "geo_facet": [
+        "Alabama",
+        "Appalachian Region",
+        "Arkansas",
+        "Chicago (Ill)",
+        "Iowa",
+        "Illinois",
+        "Kentucky",
+        "Louisiana",
+        "Midwestern States (US)",
+        "Wisconsin",
+        "United States",
+        "Tennessee",
+        "Rolling Fork (Miss)",
+        "St Louis (Mo)",
+        "Ohio",
+        "Missouri",
+        "Mississippi"
+      ],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2023/03/31/multimedia/31xp-storm-promo-sub-bzct/31xp-storm-promo-sub-bzct-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 1365,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Colin Murphey/Arkansas Democrat-Gazette, via Associated Press"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2023/03/31/multimedia/31xp-storm-promo-sub-bzct/31xp-storm-promo-sub-bzct-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Colin Murphey/Arkansas Democrat-Gazette, via Associated Press"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2023/03/31/multimedia/31xp-storm-promo-sub-bzct/31xp-storm-promo-sub-bzct-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Colin Murphey/Arkansas Democrat-Gazette, via Associated Press"
+        }
+      ],
+      "short_url": "https://nyti.ms/40QMh1q"
+    },
+    {
+      "section": "us",
+      "subsection": "",
+      "title": "One Dead and Dozens Hurt in Roof Collapse at Illinois Theater",
+      "abstract": "The disaster at a heavy metal concert in Belvidere, Ill., was one of several storm-related episodes that killed at least nine other people as tornadoes tore through the Midwest and South on Friday.",
+      "url": "https://www.nytimes.com/2023/04/01/us/theater-roof-collapse-belvidere-illinois.html",
+      "uri": "nyt://article/3c902d48-64d4-50ce-99a4-c6af2bdd1513",
+      "byline": "By Mike Ives and Robert Chiarito",
+      "item_type": "Article",
+      "updated_date": "2023-04-01T11:02:52-04:00",
+      "created_date": "2023-04-01T05:31:45-04:00",
+      "published_date": "2023-04-01T05:31:45-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": ["Deaths (Fatalities)", "Roofs", "Wind", "Tornadoes"],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": ["Belvidere (Ill)"],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2023/04/01/multimedia/01xp-theater-collapse-01-vlhq/01xp-theater-collapse-01-vlhq-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 682,
+          "width": 1023,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The scene inside the Apollo Theater after its roof collapsed on Friday in Belvidere, Ill.",
+          "copyright": "Chris Bryant"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2023/04/01/multimedia/01xp-theater-collapse-01-vlhq/01xp-theater-collapse-01-vlhq-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 399,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The scene inside the Apollo Theater after its roof collapsed on Friday in Belvidere, Ill.",
+          "copyright": "Chris Bryant"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2023/04/01/multimedia/01xp-theater-collapse-01-vlhq/01xp-theater-collapse-01-vlhq-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The scene inside the Apollo Theater after its roof collapsed on Friday in Belvidere, Ill.",
+          "copyright": "Chris Bryant"
+        }
+      ],
+      "short_url": "https://nyti.ms/40KcZZG"
+    },
+    {
+      "section": "world",
+      "subsection": "asia",
+      "title": "China Draws Lessons From Russia’s Losses in Ukraine, and Its Gains",
+      "abstract": "With an eye on a possible conflict over Taiwan, analysts have scrutinized the war for insights ranging from the importance of supply lines to the power of nuclear threats.",
+      "url": "https://www.nytimes.com/2023/04/01/world/asia/china-russia-ukraine-war.html",
+      "uri": "nyt://article/36c888db-a2d1-503c-a3d0-f7d671c0e942",
+      "byline": "By Chris Buckley",
+      "item_type": "Article",
+      "updated_date": "2023-04-01T06:46:09-04:00",
+      "created_date": "2023-04-01T05:00:28-04:00",
+      "published_date": "2023-04-01T05:00:28-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Defense and Military Forces",
+        "Russian Invasion of Ukraine (2022)",
+        "United States International Relations",
+        "Arms Control and Limitation and Disarmament"
+      ],
+      "org_facet": [
+        "North Atlantic Treaty Organization",
+        "Starlink Satellite Constellation (SpaceX)",
+        "People's Liberation Army (China)"
+      ],
+      "per_facet": ["Xi Jinping", "Putin, Vladimir V"],
+      "geo_facet": ["China", "Russia", "Taiwan", "Ukraine"],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2023/03/18/multimedia/00china-military-01-zpct/00china-military-01-zpct-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 1365,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "New recruits of the People’s Liberation Army at a send-off ceremony in eastern China. Experts studying Russia’s war have said that Moscow’s manpower shortfall shows that China needed to keep its ground forces strong.",
+          "copyright": "China Daily, via Reuters"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2023/03/18/multimedia/00china-military-01-zpct/00china-military-01-zpct-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "New recruits of the People’s Liberation Army at a send-off ceremony in eastern China. Experts studying Russia’s war have said that Moscow’s manpower shortfall shows that China needed to keep its ground forces strong.",
+          "copyright": "China Daily, via Reuters"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2023/03/18/multimedia/00china-military-01-zpct/00china-military-01-zpct-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "New recruits of the People’s Liberation Army at a send-off ceremony in eastern China. Experts studying Russia’s war have said that Moscow’s manpower shortfall shows that China needed to keep its ground forces strong.",
+          "copyright": "China Daily, via Reuters"
+        }
+      ],
+      "short_url": "https://nyti.ms/42UlrXY"
+    },
+    {
+      "section": "us",
+      "subsection": "politics",
+      "title": "Espionage Charge Adds Hurdle to Freeing a Reporter Detained in Russia",
+      "abstract": "The Biden administration recently secured the release of two Americans convicted of criminal charges in Russia, but even fabricated charges of spying can raise the stakes.",
+      "url": "https://www.nytimes.com/2023/03/31/us/politics/russia-evan-gershkovich-arrest-wsj-reporter.html",
+      "uri": "nyt://article/2ac614e0-5bd5-570b-a761-574ea4399696",
+      "byline": "By Michael Crowley, Ivan Nechepurenko and Anton Troianovski",
+      "item_type": "Article",
+      "updated_date": "2023-03-31T23:48:52-04:00",
+      "created_date": "2023-03-31T18:39:38-04:00",
+      "published_date": "2023-03-31T18:39:38-04:00",
+      "material_type_facet": "",
+      "kicker": "News Analysis",
+      "des_facet": [
+        "Espionage and Intelligence Services",
+        "International Relations",
+        "United States International Relations",
+        "Political Prisoners",
+        "Freedom of the Press",
+        "Newspapers",
+        "Russian Invasion of Ukraine (2022)"
+      ],
+      "org_facet": ["Wall Street Journal"],
+      "per_facet": [
+        "Gershkovich, Evan",
+        "Putin, Vladimir V",
+        "Griner, Brittney",
+        "Reed, Trevor (1991- )",
+        "Bout, Viktor",
+        "Whelan, Paul N"
+      ],
+      "geo_facet": ["Russia"],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2023/03/31/multimedia/31dc-gershkovich-01-wgpk/31dc-gershkovich-01-wgpk-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 859,
+          "width": 1290,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Evan Gershkovich, a Wall Street Journal reporter, is accused by Russia of trying to gain illicit information about the country’s “military-industrial complex.”",
+          "copyright": "The Wall Street Journal, via Reuters"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2023/03/31/multimedia/31dc-gershkovich-01-wgpk/31dc-gershkovich-01-wgpk-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Evan Gershkovich, a Wall Street Journal reporter, is accused by Russia of trying to gain illicit information about the country’s “military-industrial complex.”",
+          "copyright": "The Wall Street Journal, via Reuters"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2023/03/31/multimedia/31dc-gershkovich-01-wgpk/31dc-gershkovich-01-wgpk-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Evan Gershkovich, a Wall Street Journal reporter, is accused by Russia of trying to gain illicit information about the country’s “military-industrial complex.”",
+          "copyright": "The Wall Street Journal, via Reuters"
+        }
+      ],
+      "short_url": "https://nyti.ms/3nvOu3L"
+    },
+    {
+      "section": "world",
+      "subsection": "europe",
+      "title": "Ukraine Charges a Leading Ukrainian Vicar, as Russia Pounds Eastern Ukraine",
+      "abstract": "The charge against the religious leader, Pavlo Lebid, came as Russian forces hit the town of Avdiivka, among 70 other targets, along the front line.",
+      "url": "https://www.nytimes.com/2023/04/01/world/europe/russia-ukraine-war-east.html",
+      "uri": "nyt://article/dcd54b78-2b5b-5ec6-8ec5-d70b2f414d30",
+      "byline": "By Matthew Mpoke Bigg and Yurii Shyvala",
+      "item_type": "Article",
+      "updated_date": "2023-04-01T11:38:53-04:00",
+      "created_date": "2023-04-01T06:00:00-04:00",
+      "published_date": "2023-04-01T06:00:00-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": ["Russian Invasion of Ukraine (2022)"],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": ["Avdiivka (Ukraine)", "Ukraine"],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2023/03/31/multimedia/01ukraine-ledeall-lead/31ukraine-briefing-carousel-02-jklt-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 1536,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Metropolitan Pavlo Lebid at the end of the morning service at the Pechersk Lavra on Thursday. Ukraine’s security service charged Mr. Lebid on Saturday with being in league with Russia and supporting Moscow’s invasion of Ukraine.",
+          "copyright": "Laetitia Vancon for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2023/03/31/multimedia/01ukraine-ledeall-lead/31ukraine-briefing-carousel-02-jklt-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Metropolitan Pavlo Lebid at the end of the morning service at the Pechersk Lavra on Thursday. Ukraine’s security service charged Mr. Lebid on Saturday with being in league with Russia and supporting Moscow’s invasion of Ukraine.",
+          "copyright": "Laetitia Vancon for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2023/03/31/multimedia/01ukraine-ledeall-lead/31ukraine-briefing-carousel-02-jklt-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Metropolitan Pavlo Lebid at the end of the morning service at the Pechersk Lavra on Thursday. Ukraine’s security service charged Mr. Lebid on Saturday with being in league with Russia and supporting Moscow’s invasion of Ukraine.",
+          "copyright": "Laetitia Vancon for The New York Times"
+        }
+      ],
+      "short_url": "https://nyti.ms/3G7NQQy"
+    },
+    {
+      "section": "arts",
+      "subsection": "music",
+      "title": "Now Playing in China: Putin-Aligned Artists Shunned in the West",
+      "abstract": "As Russia works to shore up its image and rebuild its soft power after its invasion of Ukraine, it is strengthening cultural ties with friendly nations, including China.",
+      "url": "https://www.nytimes.com/2023/03/31/arts/music/russia-china-culture.html",
+      "uri": "nyt://article/89e28e16-3999-5571-9460-90ad8a1d786e",
+      "byline": "By Javier C. Hernández",
+      "item_type": "Article",
+      "updated_date": "2023-03-31T17:15:49-04:00",
+      "created_date": "2023-03-31T11:49:18-04:00",
+      "published_date": "2023-03-31T11:49:18-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Classical Music",
+        "International Relations",
+        "Russian Invasion of Ukraine (2022)",
+        "Culture (Arts)"
+      ],
+      "org_facet": ["Mariinsky Theater Orchestra", "Bolshoi Ballet"],
+      "per_facet": ["Gergiev, Valery", "Putin, Vladimir V", "Xi Jinping"],
+      "geo_facet": ["China", "Russia"],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2023/04/01/arts/31RUSSIA-CULTURE/31RUSSIA-CULTURE-superJumbo.png",
+          "format": "Super Jumbo",
+          "height": 894,
+          "width": 1593,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The Russian maestro Valery Gergiev, who has been shunned by the West, conducted the Mariinsky Orchestra in Beijing.",
+          "copyright": "via National Center for the Performing Arts"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2023/04/01/arts/31RUSSIA-CULTURE/31RUSSIA-CULTURE-threeByTwoSmallAt2X.png",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The Russian maestro Valery Gergiev, who has been shunned by the West, conducted the Mariinsky Orchestra in Beijing.",
+          "copyright": "via National Center for the Performing Arts"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2023/04/01/arts/31RUSSIA-CULTURE/31RUSSIA-CULTURE-thumbLarge.png",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The Russian maestro Valery Gergiev, who has been shunned by the West, conducted the Mariinsky Orchestra in Beijing.",
+          "copyright": "via National Center for the Performing Arts"
+        }
+      ],
+      "short_url": "https://nyti.ms/3U10GWz"
+    },
+    {
+      "section": "sports",
+      "subsection": "ncaabasketball",
+      "title": "Caitlin Clark and Iowa Deliver Toppling Upset of South Carolina in Final Four",
+      "abstract": "The Gamecocks were considered a heavy favorite to repeat as champions. But Clark and the Hawkeyes delivered, all the way to the championship game against Louisiana State.",
+      "url": "https://www.nytimes.com/2023/03/31/sports/ncaabasketball/iowa-south-carolina-lsu-womens-final-four.html",
+      "uri": "nyt://article/258356bf-ab04-57de-a4c6-080d7d7f3fb1",
+      "byline": "By Kris Rhim and Talya Minsberg",
+      "item_type": "Article",
+      "updated_date": "2023-04-01T10:17:18-04:00",
+      "created_date": "2023-03-31T23:50:34-04:00",
+      "published_date": "2023-03-31T23:50:34-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "NCAA Basketball Championships (Women)",
+        "Basketball (College)"
+      ],
+      "org_facet": [
+        "National Collegiate Athletic Assn",
+        "Louisiana State University",
+        "University of Iowa",
+        "University of South Carolina",
+        "Virginia Polytechnic Institute and State University"
+      ],
+      "per_facet": [
+        "Boston, Aliyah (2001- )",
+        "Clark, Caitlin (2002- )",
+        "Czinano, Monika",
+        "Mulkey, Kim",
+        "Reese, Angel (2002- )",
+        "Staley, Dawn"
+      ],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2023/03/31/multimedia/31wcbb-final-four-pzqk/31wcbb-final-four-pzqk-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 1366,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Caitlin Clark had 41 points and led the Hawkeyes as they stymied South Carolina.",
+          "copyright": "Tony Gutierrez/Associated Press"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2023/03/31/multimedia/31wcbb-final-four-pzqk/31wcbb-final-four-pzqk-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Caitlin Clark had 41 points and led the Hawkeyes as they stymied South Carolina.",
+          "copyright": "Tony Gutierrez/Associated Press"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2023/03/31/multimedia/31wcbb-final-four-pzqk/31wcbb-final-four-pzqk-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Caitlin Clark had 41 points and led the Hawkeyes as they stymied South Carolina.",
+          "copyright": "Tony Gutierrez/Associated Press"
+        }
+      ],
+      "short_url": "https://nyti.ms/3ZwiSIz"
+    },
+    {
+      "section": "sports",
+      "subsection": "ncaabasketball",
+      "title": "When Every Win Means Water, Water Everywhere",
+      "abstract": "Hold the champagne. Water has become the go-to beverage for celebrating success in sports.",
+      "url": "https://www.nytimes.com/interactive/2023/03/31/sports/ncaabasketball/locker-room-celebrations-water-pour.html",
+      "uri": "nyt://interactive/ed357b83-c27a-5ed7-b3e1-3e0fec90403d",
+      "byline": "",
+      "item_type": "Interactive",
+      "updated_date": "2023-03-31T20:25:22-04:00",
+      "created_date": "2023-03-31T18:51:36-04:00",
+      "published_date": "2023-03-31T18:51:36-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Water",
+        "Athletics and Sports",
+        "Basketball (College)",
+        "NCAA Basketball Championships (Men)",
+        "NCAA Basketball Championships (Women)"
+      ],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2023/03/31/multimedia/water-bottle-celebration/31cbb-waterbottles-gkcw-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 1147,
+          "width": 1720,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Steph Chambers/Getty Images"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2023/03/31/multimedia/water-bottle-celebration/31cbb-waterbottles-gkcw-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Steph Chambers/Getty Images"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2023/03/31/multimedia/water-bottle-celebration/water-bottle-celebration-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Steph Chambers/Getty Images"
+        }
+      ],
+      "short_url": "https://nyti.ms/3U25JWF"
+    },
+    {
+      "section": "sports",
+      "subsection": "ncaabasketball",
+      "title": "A Once Lowly Program Gets a Second Shot at the Top",
+      "abstract": "San Diego State was poised for a top seed in the 2020 N.C.A.A. tournament before the pandemic led to its cancellation. This year’s team, with three key holdovers, has made a run to the Final Four.",
+      "url": "https://www.nytimes.com/2023/04/01/sports/ncaabasketball/san-diego-state.html",
+      "uri": "nyt://article/c86bdd23-5ee5-5f86-a8c6-7a6898134ca1",
+      "byline": "By Scott Miller",
+      "item_type": "Article",
+      "updated_date": "2023-04-01T01:12:58-04:00",
+      "created_date": "2023-04-01T00:01:08-04:00",
+      "published_date": "2023-04-01T00:01:08-04:00",
+      "material_type_facet": "",
+      "kicker": "Men’s Basketball Final Four",
+      "des_facet": [
+        "NCAA Basketball Championships (Men)",
+        "Basketball (College)"
+      ],
+      "org_facet": ["San Diego State University"],
+      "per_facet": [
+        "Dutcher, Brian (1959- )",
+        "Fisher, Steve (1945- )",
+        "Gwynn, Tony Jr. (1982- )"
+      ],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2023/04/01/multimedia/01mcbb-sdsu-arop-tgkz/01mcbb-sdsu-arop-tgkz-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 1365,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "San Diego State players celebrating with fans after beating Creighton to reach the men’s Final Four.",
+          "copyright": "Rob Carr/Getty Images"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2023/04/01/multimedia/01mcbb-sdsu-arop-tgkz/01mcbb-sdsu-arop-tgkz-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "San Diego State players celebrating with fans after beating Creighton to reach the men’s Final Four.",
+          "copyright": "Rob Carr/Getty Images"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2023/04/01/multimedia/01mcbb-sdsu-arop-tgkz/01mcbb-sdsu-arop-tgkz-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "San Diego State players celebrating with fans after beating Creighton to reach the men’s Final Four.",
+          "copyright": "Rob Carr/Getty Images"
+        }
+      ],
+      "short_url": "https://nyti.ms/3lYfdFT"
+    },
+    {
+      "section": "sports",
+      "subsection": "ncaabasketball",
+      "title": "The Beach Boys Making a Final Four Run",
+      "abstract": "Florida Atlantic has seemingly come out of nowhere to make a deep run in the men’s N.C.A.A. tournament. The university’s ambitions are relatively young, too.",
+      "url": "https://www.nytimes.com/2023/04/01/sports/ncaabasketball/florida-atlantic-final-four.html",
+      "uri": "nyt://article/c20c93b1-8dfc-5198-b880-039f274b0373",
+      "byline": "By Adam Zagoria",
+      "item_type": "Article",
+      "updated_date": "2023-04-01T09:45:23-04:00",
+      "created_date": "2023-04-01T00:01:08-04:00",
+      "published_date": "2023-04-01T00:01:08-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Basketball",
+        "NCAA Basketball Championships (Men)",
+        "Basketball (College)"
+      ],
+      "org_facet": ["Conference USA", "Florida Atlantic University"],
+      "per_facet": ["Schnellenberger, Howard"],
+      "geo_facet": ["Florida"],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2023/03/31/multimedia/owls1-ptvk/owls1-ptvk-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 1380,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "One of the breakout teams in this year’s N.C.A.A. men’s basketball tournament has been ninth-seeded Florida Atlantic, a university that has only been around since the 1960s and that has only had a men’s basketball team since 1988.",
+          "copyright": "Gregory Shamus/Getty Images"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2023/03/31/multimedia/owls1-ptvk/owls1-ptvk-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "One of the breakout teams in this year’s N.C.A.A. men’s basketball tournament has been ninth-seeded Florida Atlantic, a university that has only been around since the 1960s and that has only had a men’s basketball team since 1988.",
+          "copyright": "Gregory Shamus/Getty Images"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2023/03/31/multimedia/owls1-ptvk/owls1-ptvk-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "One of the breakout teams in this year’s N.C.A.A. men’s basketball tournament has been ninth-seeded Florida Atlantic, a university that has only been around since the 1960s and that has only had a men’s basketball team since 1988.",
+          "copyright": "Gregory Shamus/Getty Images"
+        }
+      ],
+      "short_url": "https://nyti.ms/3K45XrS"
+    },
+    {
+      "section": "technology",
+      "subsection": "",
+      "title": "The ChatGPT King Isn’t Worried, but He Knows You Might Be",
+      "abstract": "Sam Altman sees the pros and cons of totally changing the world as we know it. And if he does make human intelligence useless, he has a plan to fix it.",
+      "url": "https://www.nytimes.com/2023/03/31/technology/sam-altman-open-ai-chatgpt.html",
+      "uri": "nyt://article/59a2e321-82b7-5eff-92b6-334eada86502",
+      "byline": "By Cade Metz",
+      "item_type": "Article",
+      "updated_date": "2023-03-31T22:19:36-04:00",
+      "created_date": "2023-03-31T14:40:06-04:00",
+      "published_date": "2023-03-31T14:40:06-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Artificial Intelligence",
+        "ChatGPT",
+        "Computers and the Internet",
+        "Content Type: Personal Profile"
+      ],
+      "org_facet": ["OpenAI Labs"],
+      "per_facet": ["Altman, Samuel H"],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2023/04/02/business/02Altman-cover-illo/02Altman-cover-illo-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 2048,
+          "width": 1753,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Laura Salafia"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2023/04/02/business/02Altman-cover-illo/02Altman-cover-illo-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Laura Salafia"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2023/04/02/business/02Altman-cover-illo/02Altman-cover-illo-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Laura Salafia"
+        }
+      ],
+      "short_url": "https://nyti.ms/3M30jJ6"
+    },
+    {
+      "section": "world",
+      "subsection": "asia",
+      "title": "Thailand’s Unemployed Elephants Are Back Home, Huge and Hungry",
+      "abstract": "When the tourists who rode them disappeared from resort destinations, Thailand’s captive elephants, and their owners, went back to their birth villages, where finding enough food has been a struggle.",
+      "url": "https://www.nytimes.com/2023/04/01/world/asia/thailand-elephants-tourism-debate.html",
+      "uri": "nyt://article/3290f90b-7e60-5299-9d9c-e76fcbba4f84",
+      "byline": "By Muktita Suhartono and Ulet Ifansasti",
+      "item_type": "Article",
+      "updated_date": "2023-04-01T08:36:16-04:00",
+      "created_date": "2023-04-01T05:00:41-04:00",
+      "published_date": "2023-04-01T05:00:41-04:00",
+      "material_type_facet": "",
+      "kicker": "Thailand Dispatch",
+      "des_facet": [
+        "Elephants",
+        "Animal Abuse, Rights and Welfare",
+        "Coronavirus (2019-nCoV)",
+        "Food",
+        "Animal Cognition",
+        "vis-photo",
+        "Travel and Vacations",
+        "Fruit"
+      ],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": ["Thailand", "Phuket (Thailand)"],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2023/03/23/multimedia/00thailand-elephant-dispatch-01-zchl/00thailand-elephant-dispatch-01-zchl-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 1365,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Elephants are a common sight on the streets of Baan Ta Klang village, in Thailand. Here, a mahout rides his elephant past a sculpture of a mythical, multiheaded elephant in February.",
+          "copyright": "Ulet Ifansasti for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2023/03/23/multimedia/00thailand-elephant-dispatch-01-zchl/00thailand-elephant-dispatch-01-zchl-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Elephants are a common sight on the streets of Baan Ta Klang village, in Thailand. Here, a mahout rides his elephant past a sculpture of a mythical, multiheaded elephant in February.",
+          "copyright": "Ulet Ifansasti for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2023/03/23/multimedia/00thailand-elephant-dispatch-01-zchl/00thailand-elephant-dispatch-01-zchl-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Elephants are a common sight on the streets of Baan Ta Klang village, in Thailand. Here, a mahout rides his elephant past a sculpture of a mythical, multiheaded elephant in February.",
+          "copyright": "Ulet Ifansasti for The New York Times"
+        }
+      ],
+      "short_url": "https://nyti.ms/3Zyx97F"
+    },
+    {
+      "section": "well",
+      "subsection": "live",
+      "title": "Millions of Americans May Soon Lose Medicaid Coverage. Here’s How to Prepare.",
+      "abstract": "As pandemic protections expire, states are redetermining which people are eligible for the health insurance program.",
+      "url": "https://www.nytimes.com/2023/03/31/well/live/medicaid-health-insurance-eligibility.html",
+      "uri": "nyt://article/031ae11a-dc45-5fe7-b0fd-f1a526e00d97",
+      "byline": "By Dani Blum",
+      "item_type": "Article",
+      "updated_date": "2023-03-31T18:45:32-04:00",
+      "created_date": "2023-03-31T18:39:45-04:00",
+      "published_date": "2023-03-31T18:39:45-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Health Insurance and Managed Care",
+        "Medicaid",
+        "Content Type: Service",
+        "Patient Protection and Affordable Care Act (2010)",
+        "Poverty"
+      ],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2023/03/31/well/WELL-MEDICAID2/WELL-MEDICAID1-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 1365,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Getty Images"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2023/03/31/well/WELL-MEDICAID2/WELL-MEDICAID1-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Getty Images"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2023/03/31/well/WELL-MEDICAID2/WELL-MEDICAID1-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Getty Images"
+        }
+      ],
+      "short_url": "https://nyti.ms/3KovtJC"
+    },
+    {
+      "section": "briefing",
+      "subsection": "",
+      "title": "The Weekender",
+      "abstract": "The rise of exclusive, application-only gyms. Also: Private dinners where clothes aren’t allowed, and why people are still buying Crocs.",
+      "url": "https://www.nytimes.com/interactive/2023/03/30/briefing/the-weekender.html",
+      "uri": "nyt://interactive/9e66de1c-9616-5104-936b-cdf373f53fd8",
+      "byline": "By Jaclyn Reiss",
+      "item_type": "Interactive",
+      "updated_date": "2023-03-30T17:08:39-04:00",
+      "created_date": "2023-03-30T17:08:39-04:00",
+      "published_date": "2023-03-30T17:08:39-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2023/04/03/reader-center/0331Weekender-NLpromo-grid/0331Weekender-NLpromo-grid-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 1334,
+          "width": 2000,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": ""
+        },
+        {
+          "url": "https://static01.nyt.com/images/2023/04/03/reader-center/0331Weekender-NLpromo-grid/0331Weekender-NLpromo-grid-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": ""
+        },
+        {
+          "url": "https://static01.nyt.com/images/2023/04/03/reader-center/0331Weekender-NLpromo-grid/0331Weekender-NLpromo-grid-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": ""
+        }
+      ],
+      "short_url": "https://nyti.ms/3Zsmr2I"
+    },
+    {
+      "section": "briefing",
+      "subsection": "",
+      "title": "The New York Times News Quiz, March 31, 2023",
+      "abstract": "Did you follow the news this week? Take our quiz to see how well you stack up with other Times readers.",
+      "url": "https://www.nytimes.com/interactive/2023/03/31/briefing/news-quiz-trump-nashville.html",
+      "uri": "nyt://interactive/a5feb5b1-96db-53ab-a99b-0dcadf42397f",
+      "byline": "",
+      "item_type": "Interactive",
+      "updated_date": "2023-03-31T05:01:00-04:00",
+      "created_date": "2023-03-31T05:01:00-04:00",
+      "published_date": "2023-03-31T05:01:00-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": ["Content Type: Quiz"],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2023/03/30/multimedia/30news-quiz-trump-photo/30hp-trump-indictment-vcqf-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 1366,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Doug Mills/The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2023/03/30/multimedia/30news-quiz-trump-photo/30hp-trump-indictment-vcqf-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Doug Mills/The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2023/03/30/multimedia/30news-quiz-trump-photo/30hp-trump-indictment-vcqf-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Doug Mills/The New York Times"
+        }
+      ],
+      "short_url": "https://nyti.ms/3nBv1yV"
+    },
+    {
+      "section": "business",
+      "subsection": "",
+      "title": "The Last Strand: Let’s Talk About Hair Loss",
+      "abstract": "“If I was a monk, I would be bald. But I’m not a monk. So, here I am with hair transplants.” Seven people and three experts talk about shedding.",
+      "url": "https://www.nytimes.com/interactive/2023/03/31/business/hair-loss-treatments.html",
+      "uri": "nyt://interactive/abd8af78-5023-54bb-9866-d0ec91655e08",
+      "byline": "By Julia Rothman and Shaina Feinberg",
+      "item_type": "Interactive",
+      "updated_date": "2023-04-01T09:06:46-04:00",
+      "created_date": "2023-03-31T18:51:03-04:00",
+      "published_date": "2023-03-31T18:51:03-04:00",
+      "material_type_facet": "",
+      "kicker": "Scratch",
+      "des_facet": ["Hair", "Baldness", "Plastic Surgery"],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2023/03/30/business/scratch-hair-promo/test-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 850,
+          "width": 1400,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Julia Rothman"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2023/03/30/business/scratch-hair-promo/test-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Julia Rothman"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2023/03/30/business/scratch-hair-promo/test-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Julia Rothman"
+        }
+      ],
+      "short_url": "https://nyti.ms/3znHrNi"
+    },
+    {
+      "section": "opinion",
+      "subsection": "",
+      "title": "Israel’s Protesters Won a Victory, but the Fight for Democracy Is Far From Over",
+      "abstract": "Protesters who took to the streets understand that the written and unwritten checks and balances of Israeli government are still vulnerable.",
+      "url": "https://www.nytimes.com/2023/04/01/opinion/israel-protests-netanyahu.html",
+      "uri": "nyt://article/f74348b0-8a67-59eb-934d-22869b238df7",
+      "byline": "By The Editorial Board",
+      "item_type": "Article",
+      "updated_date": "2023-04-01T09:13:28-04:00",
+      "created_date": "2023-04-01T09:00:07-04:00",
+      "published_date": "2023-04-01T09:00:07-04:00",
+      "material_type_facet": "",
+      "kicker": "The Editorial Board",
+      "des_facet": [
+        "Politics and Government",
+        "Democracy (Theory and Philosophy)",
+        "Jews and Judaism",
+        "Right-Wing Extremism and Alt-Right",
+        "Defense and Military Forces",
+        "Palestinians",
+        "Demonstrations, Protests and Riots",
+        "Israeli Settlements"
+      ],
+      "org_facet": ["Supreme Court of Israel"],
+      "per_facet": ["Netanyahu, Benjamin"],
+      "geo_facet": ["Israel", "West Bank"],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2023/04/03/opinion/01israel-editorial/01israel-editorial-superJumbo-v3.jpg",
+          "format": "Super Jumbo",
+          "height": 2048,
+          "width": 2048,
+          "type": "image",
+          "subtype": "illustration",
+          "caption": "",
+          "copyright": "Illustration by Rebecca Chew/The New York Times; photographs by Getty Images"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2023/04/03/opinion/01israel-editorial/01israel-editorial-threeByTwoSmallAt2X-v3.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "illustration",
+          "caption": "",
+          "copyright": "Illustration by Rebecca Chew/The New York Times; photographs by Getty Images"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2023/04/03/opinion/01israel-editorial/01israel-editorial-thumbLarge-v3.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "illustration",
+          "caption": "",
+          "copyright": "Illustration by Rebecca Chew/The New York Times; photographs by Getty Images"
+        }
+      ],
+      "short_url": "https://nyti.ms/3KoCr19"
+    },
+    {
+      "section": "opinion",
+      "subsection": "",
+      "title": "Trump’s Prosecution Has Set a Dangerous Precedent",
+      "abstract": "Biden could soon find himself in the cross hairs of politically motivated suits from local prosecutors eager to make names for themselves.",
+      "url": "https://www.nytimes.com/2023/04/01/opinion/trump-prosecution-precedent.html",
+      "uri": "nyt://article/7539507e-6452-5b28-a2a0-442c53f88123",
+      "byline": "By Ankush Khardori",
+      "item_type": "Article",
+      "updated_date": "2023-04-01T09:13:07-04:00",
+      "created_date": "2023-04-01T09:00:08-04:00",
+      "published_date": "2023-04-01T09:00:08-04:00",
+      "material_type_facet": "",
+      "kicker": "Guest Essay",
+      "des_facet": [
+        "United States Politics and Government",
+        "Decisions and Verdicts",
+        "District Attorneys",
+        "Attorneys General"
+      ],
+      "org_facet": [
+        "Justice Department",
+        "Republican Party",
+        "Democratic Party"
+      ],
+      "per_facet": ["Biden, Joseph R Jr", "Bragg, Alvin", "Trump, Donald J"],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2023/04/02/multimedia/24Khardori-refer/24Khardori-kzgl-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 1365,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Members of the news media gathered on March 20 at the steps of the building where the Manhattan district attorney, Alvin Bragg, has his office.",
+          "copyright": "Mark Peterson/Redux for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2023/04/02/multimedia/24Khardori-refer/24Khardori-refer-threeByTwoSmallAt2X-v2.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Members of the news media gathered on March 20 at the steps of the building where the Manhattan district attorney, Alvin Bragg, has his office.",
+          "copyright": "Mark Peterson/Redux for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2023/04/02/multimedia/24Khardori-refer/24Khardori-refer-thumbLarge-v2.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Members of the news media gathered on March 20 at the steps of the building where the Manhattan district attorney, Alvin Bragg, has his office.",
+          "copyright": "Mark Peterson/Redux for The New York Times"
+        }
+      ],
+      "short_url": "https://nyti.ms/3K01Ehi"
+    },
+    {
+      "section": "opinion",
+      "subsection": "",
+      "title": "The Rule of Law Now Depends on Republicans",
+      "abstract": "Trump and his defenders are priming his supporters to reject our legal system.",
+      "url": "https://www.nytimes.com/2023/03/31/opinion/trump-indictment-rule-of-law.html",
+      "uri": "nyt://article/20bcccef-4dbb-513a-b20b-fd37ec1c9cfb",
+      "byline": "By David French",
+      "item_type": "Article",
+      "updated_date": "2023-03-31T23:22:40-04:00",
+      "created_date": "2023-03-31T16:25:47-04:00",
+      "published_date": "2023-03-31T16:25:47-04:00",
+      "material_type_facet": "",
+      "kicker": "David French",
+      "des_facet": [
+        "Decisions and Verdicts",
+        "United States Politics and Government"
+      ],
+      "org_facet": ["Republican Party"],
+      "per_facet": ["Trump, Donald J", "Bragg, Alvin", "DeSantis, Ron"],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2023/03/31/multimedia/31French-3-fbpc/31French-3-fbpc-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 1365,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The “Authority of Law” statue sits in front of the Supreme Court in Washington.",
+          "copyright": "Christopher Lee for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2023/03/31/multimedia/31French-3-fbpc/31French-3-fbpc-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The “Authority of Law” statue sits in front of the Supreme Court in Washington.",
+          "copyright": "Christopher Lee for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2023/03/31/multimedia/31French-3-fbpc/31French-3-fbpc-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The “Authority of Law” statue sits in front of the Supreme Court in Washington.",
+          "copyright": "Christopher Lee for The New York Times"
+        }
+      ],
+      "short_url": "https://nyti.ms/3M60inG"
+    },
+    {
+      "section": "opinion",
+      "subsection": "",
+      "title": "The First Trump Indictment Is Here, and It Matters",
+      "abstract": "The hush money scheme is part of a pattern of anti-democratic behavior.",
+      "url": "https://www.nytimes.com/2023/03/31/opinion/trump-criminal-charges-indictment.html",
+      "uri": "nyt://article/1c063eb3-4232-5b0d-991a-9319a844c79f",
+      "byline": "By Michelle Goldberg",
+      "item_type": "Article",
+      "updated_date": "2023-03-31T17:37:46-04:00",
+      "created_date": "2023-03-31T15:34:06-04:00",
+      "published_date": "2023-03-31T15:34:06-04:00",
+      "material_type_facet": "",
+      "kicker": "Michelle Goldberg",
+      "des_facet": [
+        "Presidential Election of 2016",
+        "United States Politics and Government",
+        "Bribery and Kickbacks"
+      ],
+      "org_facet": [],
+      "per_facet": [
+        "Trump, Donald J",
+        "Bragg, Alvin",
+        "Clifford, Stephanie (1979- )"
+      ],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2023/03/31/multimedia/31goldberg-jqhk/31goldberg-jqhk-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 1365,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Donald Trump at a campaign event in 2016.",
+          "copyright": "Damon Winter/The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2023/03/31/multimedia/31goldberg-jqhk/31goldberg-jqhk-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Donald Trump at a campaign event in 2016.",
+          "copyright": "Damon Winter/The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2023/03/31/multimedia/31goldberg-jqhk/31goldberg-jqhk-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Donald Trump at a campaign event in 2016.",
+          "copyright": "Damon Winter/The New York Times"
+        }
+      ],
+      "short_url": "https://nyti.ms/3lVlXUT"
+    },
+    {
+      "section": "briefing",
+      "subsection": "",
+      "title": "Bring the Kids Along",
+      "abstract": "We take our children on vacation to expose them to history, novelty and beauty.",
+      "url": "https://www.nytimes.com/2023/04/01/briefing/family-travel-trends.html",
+      "uri": "nyt://article/08ba22ca-6336-508a-9210-223ae6b4016b",
+      "byline": "By Amy Virshup",
+      "item_type": "Article",
+      "updated_date": "2023-04-01T06:21:47-04:00",
+      "created_date": "2023-04-01T06:21:47-04:00",
+      "published_date": "2023-04-01T06:21:47-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": ["internal-storyline-no"],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2023/04/01/multimedia/01-THE-MORNING-NL/01-THE-MORNING-NL-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 2048,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "María Jesús Contreras"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2023/04/01/multimedia/01-THE-MORNING-NL/01-THE-MORNING-NL-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "María Jesús Contreras"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2023/04/01/multimedia/01-THE-MORNING-NL/01-THE-MORNING-NL-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "María Jesús Contreras"
+        }
+      ],
+      "short_url": "https://nyti.ms/3M6UF8M"
+    },
+    {
+      "section": "us",
+      "subsection": "politics",
+      "title": "Inside Saudi Arabia’s Global Push for Nuclear Power",
+      "abstract": "Despite qualms in Washington, Saudi officials have pressed the United States to help them develop nuclear power. But they are also exploring other options, including China.",
+      "url": "https://www.nytimes.com/2023/04/01/us/politics/saudi-arabia-nuclear-biden-administration.html",
+      "uri": "nyt://article/ae88378c-e00b-556d-9689-bc0de5016466",
+      "byline": "By Edward Wong, Vivian Nereim and Kate Kelly",
+      "item_type": "Article",
+      "updated_date": "2023-04-01T10:45:34-04:00",
+      "created_date": "2023-04-01T03:00:13-04:00",
+      "published_date": "2023-04-01T03:00:13-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "International Relations",
+        "Nuclear Weapons",
+        "United States International Relations",
+        "Nuclear Energy",
+        "Uranium",
+        "Arms Control and Limitation and Disarmament",
+        "Defense and Military Forces"
+      ],
+      "org_facet": ["International Atomic Energy Agency"],
+      "per_facet": [
+        "Abdulaziz bin Salman, Prince of Saudi Arabia",
+        "Mohammed bin Salman (1985- )",
+        "Biden, Joseph R Jr"
+      ],
+      "geo_facet": ["Saudi Arabia", "China"],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2023/03/29/multimedia/00dc-saudi-nuclear-1-03-kbhj/00dc-saudi-nuclear-1-03-kbhj-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 1365,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Looking over Riyadh, Saudi Arabia. Saudi officials are exploring options to work with countries other than the United States to develop a nuclear energy program.",
+          "copyright": "Tamir Kalifa for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2023/03/29/multimedia/00dc-saudi-nuclear-1-03-kbhj/00dc-saudi-nuclear-1-03-kbhj-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Looking over Riyadh, Saudi Arabia. Saudi officials are exploring options to work with countries other than the United States to develop a nuclear energy program.",
+          "copyright": "Tamir Kalifa for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2023/03/29/multimedia/00dc-saudi-nuclear-1-03-kbhj/00dc-saudi-nuclear-1-03-kbhj-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Looking over Riyadh, Saudi Arabia. Saudi officials are exploring options to work with countries other than the United States to develop a nuclear energy program.",
+          "copyright": "Tamir Kalifa for The New York Times"
+        }
+      ],
+      "short_url": "https://nyti.ms/3U4ea3Y"
+    },
+    {
+      "section": "world",
+      "subsection": "middleeast",
+      "title": "Security Force or Anti-Arab Militia? Israelis Feud Over Far-Right Plan",
+      "abstract": "The far-right security minister, Itamar Ben-Gvir, wants to create a national guard that he would control, saying it is needed to guarantee Israel’s security.",
+      "url": "https://www.nytimes.com/2023/04/01/world/middleeast/israel-netanyahu-ben-gvir-national-guard.html",
+      "uri": "nyt://article/a32f08f6-1bbf-5dfd-a724-d8b6fad931c8",
+      "byline": "By Patrick Kingsley, Ronen Bergman and Hiba Yazbek",
+      "item_type": "Article",
+      "updated_date": "2023-04-01T05:00:24-04:00",
+      "created_date": "2023-04-01T05:00:24-04:00",
+      "published_date": "2023-04-01T05:00:24-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": ["Palestinians", "Right-Wing Extremism and Alt-Right"],
+      "org_facet": ["Jewish Power Party (Otzma Yehudit)"],
+      "per_facet": ["Ben-Gvir, Itamar", "Netanyahu, Benjamin"],
+      "geo_facet": ["Israel"],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2023/04/01/multimedia/01israel-guard-1-bmgq/01israel-guard-1-bmgq-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 1366,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Itamar Ben-Gvir in Jerusalem in October.",
+          "copyright": "Avishag Shaar-Yashuv for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2023/04/01/multimedia/01israel-guard-1-bmgq/01israel-guard-1-bmgq-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Itamar Ben-Gvir in Jerusalem in October.",
+          "copyright": "Avishag Shaar-Yashuv for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2023/04/01/multimedia/01israel-guard-1-bmgq/01israel-guard-1-bmgq-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Itamar Ben-Gvir in Jerusalem in October.",
+          "copyright": "Avishag Shaar-Yashuv for The New York Times"
+        }
+      ],
+      "short_url": "https://nyti.ms/3ZCjEUu"
+    },
+    {
+      "section": "nyregion",
+      "subsection": "",
+      "title": "Go Play in the Street, Kids. Really.",
+      "abstract": "Street Lab is bringing pop-up reading rooms and playgrounds to New York City’s open streets and plazas.",
+      "url": "https://www.nytimes.com/2023/04/01/nyregion/street-lab-open-streets-nyc.html",
+      "uri": "nyt://article/ffe0bff2-6053-556b-a20a-2270d7e9c152",
+      "byline": "By Winnie Hu",
+      "item_type": "Article",
+      "updated_date": "2023-04-01T09:55:28-04:00",
+      "created_date": "2023-04-01T05:00:24-04:00",
+      "published_date": "2023-04-01T05:00:24-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Pedestrian Malls",
+        "Playgrounds",
+        "Libraries and Librarians"
+      ],
+      "org_facet": [
+        "Department of Small Business Services (NYC)",
+        "Magnetic Fields (Music Group)",
+        "Cornell University",
+        "Street Lab"
+      ],
+      "per_facet": [],
+      "geo_facet": ["New York City"],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2023/04/02/nyregion/02streetlab/00streetlab-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 1366,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Francesca Cabrera played on an obstacle course set up by the nonprofit Street Lab during an “open streets” session, when New York City bans or restricts traffic at designated hours.",
+          "copyright": "Molly Woodward for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2023/04/02/nyregion/02streetlab/00streetlab-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Francesca Cabrera played on an obstacle course set up by the nonprofit Street Lab during an “open streets” session, when New York City bans or restricts traffic at designated hours.",
+          "copyright": "Molly Woodward for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2023/04/02/nyregion/02streetlab/00streetlab-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Francesca Cabrera played on an obstacle course set up by the nonprofit Street Lab during an “open streets” session, when New York City bans or restricts traffic at designated hours.",
+          "copyright": "Molly Woodward for The New York Times"
+        }
+      ],
+      "short_url": "https://nyti.ms/3nHEiFm"
+    },
+    {
+      "section": "style",
+      "subsection": "",
+      "title": "Dior’s Gateway to India",
+      "abstract": "The stakes are getting higher in fashiontainment. What a flex.",
+      "url": "https://www.nytimes.com/2023/03/31/style/dior-india-fashion-show.html",
+      "uri": "nyt://article/02233716-bf51-50ae-9d99-7070a15d7ef4",
+      "byline": "By Vanessa Friedman and Suhasini Raj",
+      "item_type": "Article",
+      "updated_date": "2023-03-31T11:40:01-04:00",
+      "created_date": "2023-03-31T10:24:16-04:00",
+      "published_date": "2023-03-31T10:24:16-04:00",
+      "material_type_facet": "",
+      "kicker": "Fashion Review",
+      "des_facet": [
+        "Fashion and Apparel",
+        "Luxury Goods and Services",
+        "Fashion Shows",
+        "your-feed-fashion"
+      ],
+      "org_facet": ["Christian Dior SA"],
+      "per_facet": ["Chiuri, Maria Grazia"],
+      "geo_facet": ["Mumbai (India)"],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2023/03/31/multimedia/31DIOR-INDIA-01-jgwp/31DIOR-INDIA-01-jgwp-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 1365,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Dior presented its pre-fall collection in Mumbai, in front of the historic Gateway of India monument.",
+          "copyright": "Rafiq Maqbool/Associated Press"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2023/03/31/multimedia/31DIOR-INDIA-01-jgwp/31DIOR-INDIA-01-jgwp-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Dior presented its pre-fall collection in Mumbai, in front of the historic Gateway of India monument.",
+          "copyright": "Rafiq Maqbool/Associated Press"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2023/03/31/multimedia/31DIOR-INDIA-01-jgwp/31DIOR-INDIA-01-jgwp-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Dior presented its pre-fall collection in Mumbai, in front of the historic Gateway of India monument.",
+          "copyright": "Rafiq Maqbool/Associated Press"
+        }
+      ],
+      "short_url": "https://nyti.ms/3lUBVP5"
+    },
+    {
+      "section": "crosswords",
+      "subsection": "",
+      "title": "Today’s Wordle Review",
+      "abstract": "Our columnist reviews the day’s puzzle. Warning: contains spoilers!",
+      "url": "https://www.nytimes.com/2023/04/01/crosswords/wordle-review-answer-651.html",
+      "uri": "nyt://article/1c9ff4fe-abae-5eb7-a2dc-35473620148e",
+      "byline": "By David Leonhardt",
+      "item_type": "Article",
+      "updated_date": "2023-04-01T11:41:22-04:00",
+      "created_date": "2023-04-01T03:00:03-04:00",
+      "published_date": "2023-04-01T03:00:03-04:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": ["Crossword Puzzles", "Wordle (Puzzle)"],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2023/04/01/crosswords/01wordle-review-art/01wordle-review-art-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 1354,
+          "width": 2030,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Mark Pernice"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2023/04/01/crosswords/01wordle-review-art/01wordle-review-art-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Mark Pernice"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2023/04/01/crosswords/01wordle-review-art/01wordle-review-art-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Mark Pernice"
+        }
+      ],
+      "short_url": "https://nyti.ms/40vEtlL"
+    }
+  ]
+}
