@@ -4,12 +4,18 @@ import { GetServerSideProps } from 'next';
 import { useRouter } from 'next/router';
 import styles from '../../styles/NewsArticle.module.css';
 import ArticleList3By3 from '@/components/ArticleLists/ArticleList3By3';
+import { useEffect, useState } from 'react';
+import ArticleListMobile from '@/components/mobile/ArticleListMobile';
 
 function CategoryArticles({ data }: NewsArticleProps) {
-  // const [savedArticles, setSavedArticles] = useLocalStorage<Article[]>(
-  //   'savedArticles',
-  //   []
-  // );
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () => setIsMobile(window.innerWidth <= 768);
+    handleResize();
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
 
   const { articles } = data;
   const router = useRouter();
@@ -19,32 +25,24 @@ function CategoryArticles({ data }: NewsArticleProps) {
   const titleRemainingLetters = title.substring(1);
   const fullTitle = titleFirstLetter + titleRemainingLetters;
 
-  // console.log('Category title' + title);
-
-  // const handleSaveArticle = (article: Article) => {
-  //   setSavedArticles([...savedArticles, article]);
-  // };
-
-  // const handleDeleteArticle = (articleTitle: string) => {
-  //   const updatedSavedArticles = savedArticles.filter(
-  //     (article) => article.title !== articleTitle
-  //   );
-  //   setSavedArticles(updatedSavedArticles);
-  // };
-
-  return (
-    <div className={styles.main}>
-      <div className={styles.newsContainer}>
-        <h1>{fullTitle} News</h1>
-        <div className={styles.restOfNews}>
-          <ArticleList3By3
-            article={articles}
-            category={title}
-          />
+  if (!isMobile) {
+    return (
+      <div className={styles.main}>
+        <div className={styles.newsContainer}>
+          <h1>{fullTitle} News</h1>
+          <div className={styles.restOfNews}>
+            <ArticleList3By3 article={articles} category={title} />
+          </div>
         </div>
       </div>
-    </div>
-  );
+    );
+  } else {
+    return (
+      <div className={styles.articlesList}>
+        <ArticleListMobile article={articles} category={title} />
+      </div>
+    );
+  }
 }
 
 export default CategoryArticles;

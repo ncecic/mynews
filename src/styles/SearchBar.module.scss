@@ -5,6 +5,7 @@
   align-items: center;
   justify-content: flex-start;
   flex-shrink: 1;
+  border-bottom: 1px solid #97979717;
 
   h1 {
     display: flex;
@@ -13,6 +14,8 @@
     font-weight: 900;
     font-size: 32px;
     line-height: 39px;
+    margin-left: 5%;
+    margin-right: 10%;
 
     .MyPart {
       color: #bb1e1e;
@@ -34,38 +37,38 @@
     width: 40vw;
     height: 3vw;
     justify-content: center;
-    align-items: center;
-
+      flex-shrink: 1;
+      align-items: center;
+  
     input {
       border-style: hidden;
-      width: 80%;
+      flex-basis: auto;
+      flex-grow: 1;
       height: 90%;
-      flex: 1 1 auto;
-      
-
+      flex-shrink: 1;
+      padding: 0 0.5rem;
+  
       &:focus {
         outline: none;
       }
     }
-
+  
     button {
       background: #bb1e1e;
       border-radius: 6px;
       font-size: 15px;
       line-height: 20px;
-      /* identical to box height, or 133% */
       height: 4vh;
-      flex: 1 1 auto;
-
-
+      width: 5vw;
+      flex-basis: auto;
+      flex-shrink: 1;
+      margin-left: 0.5rem;
       text-align: center;
       text-transform: uppercase;
-
       color: #ffffff;
-
+  
       &:hover {
-      background: #bb1e1ec6;
-
+        background: #bb1e1ec6;
       }
     }
   }

@@ -1,27 +1,58 @@
-import '@/styles/globals.css'
+import '@/styles/globals.css';
 import SearchBar from '@/components/SearchBar';
 import type { AppProps } from 'next/app';
 import styles from '../styles/App.module.css';
-import { store } from '../redux/store'
-import { Provider } from 'react-redux'
+import { store } from '../redux/store';
+import { Provider } from 'react-redux';
 import CategoriesNavigation from '@/components/CategoriesNavigation';
+import { useEffect, useState } from 'react';
+import NavigationMobile from '../components/mobile/NavigationMobile';
 
 export default function App({ Component, pageProps }: AppProps) {
-  return (
-    <>
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () => setIsMobile(window.innerWidth <= 768);
+    handleResize();
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+
+ 
+
+  if (!isMobile) {
+    return (
+      <>
         <Provider store={store}>
-        <div className={styles.mainView}>
-            <SearchBar />
-          <div className={styles.newsView}>
-            <div className={styles.categoryView}>
-              <CategoriesNavigation />
+          <div className={styles.mainView}>
+            <div className={styles.searchBar}>
+              <SearchBar />
             </div>
-            <div className={styles.articleView}>
-              <Component {...pageProps} />
+            <div className={styles.newsView}>
+              <div className={styles.categoryView}>
+                <CategoriesNavigation />
+              </div>
+              <div className={styles.articleView}>
+                <Component {...pageProps} />
+              </div>
             </div>
           </div>
-        </div>
         </Provider>
-    </>
-  );
+      </>
+    );
+  }
+
+  if (isMobile) {
+   
+    return (
+      <>
+        <Provider store={store}>
+          <NavigationMobile />
+          <div className={styles.newsSource}>
+          <Component {...pageProps} />
+          </div>
+        </Provider>
+      </>
+    );
+  }
 }

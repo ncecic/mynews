@@ -26,4 +26,11 @@
 .main .linkNav p {
   font-size: 14px;
   height: 14px;
+}
+
+@media screen and (max-width: 768px) {
+  .articlesListContainer {
+    display: flex;
+    flex-direction: column;
+  }
 }/*# sourceMappingURL=CategoriesList.module.css.map */

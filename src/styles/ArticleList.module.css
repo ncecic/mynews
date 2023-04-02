@@ -1,18 +1,4 @@
-@font-face {
-  font-family: "InterV";
-  font-style: italic;
-  font-weight: 400;
-  font-display: swap;
-  src: url("../../public/fonts/Inter-Regular.woff2") format("woff2");
-}
-@font-face {
-  font-family: "InterV_medium";
-  font-style: italic;
-  font-weight: 500;
-  font-display: swap;
-  src: url("../../public/fonts/Inter-Medium.woff2") format("woff2");
-}
-.articlesConatiner {
+ww .articlesConatiner {
   display: flex;
   flex-wrap: wrap;
   flex-shrink: 0;

@@ -1,5 +1,5 @@
 import styles from '../styles/NewsArticle.module.css';
-import ArticleList2By2 from './ArticleLists/ArticleList2by2';
+import ArticleList2By2 from './ArticleLists/ArticleList2By2';
 import ArticleList3By3 from './ArticleLists/ArticleList3By3';
 import LatestNews from './ArticleLists/LatestNews';
 

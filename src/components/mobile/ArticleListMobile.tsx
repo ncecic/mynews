@@ -3,9 +3,9 @@ import { saveArticle } from '../../redux/articleSlice';
 import { Article } from '../NewsArticle';
 import { useRouter } from 'next/router';
 import useLocalStorage from '@/util/useLocaleStorage';
-import styles from '../../styles/ArticleList2By2.module.css';
+import styles from '../../styles/mobile/ArticleListMobile.module.css';
 
-function ArticleList2By2(props: {
+function ArticleListMobile(props: {
   article: Article[];
   category?: string;
   setSavedArticles?: (articles: Article[]) => void;
@@ -18,16 +18,6 @@ function ArticleList2By2(props: {
   );
 
   const articles = props.article;
-
-  
-
-  const getHeight = () => {
-    const newsItem = document.querySelector('.newsItem');
-    if (newsItem) {
-      const { width, height } = newsItem.getBoundingClientRect();
-      console.log('Height: ', height);
-    }
-  };
 
   function openArticleHandler(article: Article) {
     dispatch(saveArticle(article));
@@ -61,9 +51,7 @@ function ArticleList2By2(props: {
         articles.map((article, index) => (
           <div
             key={index}
-            className={`${styles.newsItem} ${
-              index % 3 === 2 ? styles.lastItem : ''
-            }`}
+            className={styles.newsItem}
           >
             <div onClick={openArticleHandler.bind(null, article)}>
               <div className={styles.imageWrapper}>
@@ -72,7 +60,6 @@ function ArticleList2By2(props: {
                 ) : (
                   <div className={styles.noImage}>No Image</div>
                 )}
-                <div></div>
               </div>
               <div className={styles.contentWrapper}>
                 <p className={styles.category}>
@@ -103,4 +90,4 @@ function ArticleList2By2(props: {
   );
 }
 
-export default ArticleList2By2;
+export default ArticleListMobile;

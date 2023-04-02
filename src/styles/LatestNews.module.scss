@@ -9,8 +9,24 @@
   width: calc(33.3% - 80px);
   height: 600px;
 
-  h1 {
-    margin-left: 10%;
+  .latestNewsTitle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 5%;
+    font-family: 'InterV_Medium';
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height, or 125% */
+
+    letter-spacing: -0.11px;
+
+    color: #000000;
+
+    h2 {
+      font-size: 16;
+      margin-left: 4%;
+    }
   }
 
   .latestNews {
@@ -20,6 +36,7 @@
     overflow-y: scroll;
     margin-left: 4%;
     margin-right: 4%;
+    margin-top: 0%;
 
     /* width */
     &::-webkit-scrollbar {
@@ -37,11 +54,169 @@
       background: rgba(85, 85, 85, 0.774);
     }
 
+    .latestTime {
+      font-size: 10px;
+      line-height: 16px;
+      /* identical to box height, or 160% */
+
+      letter-spacing: -0.0153846px;
+      text-transform: uppercase;
+
+      color: #1e71bb;
+    }
+
     .latestArticle {
       padding-top: 15px;
       padding-bottom: 15px;
       border-bottom: 2px solid #f4f5f8;
+      font-family: 'InterV_Medium';
+      font-size: 16px;
+      line-height: 20px;
+      letter-spacing: -0.11px;
+      color: #000000;
+
+      .latestNewsRow {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .latestTime {
+        font-family: 'InterV_Bold';
+        font-size: 15px;
+        line-height: 16px;
+        /* identical to box height, or 160% */
+
+        letter-spacing: -0.0153846px;
+        text-transform: uppercase;
+
+        color: #1e71bb;
+        margin-bottom: 5px;
+      }
+
+      .title {
+        font-family: 'InterV_Medium';
+        font-size: 16px;
+        line-height: 20px;
+        /* or 125% */
+
+        letter-spacing: -0.11px;
+
+        color: #000000;
+      }
     }
   } // Add flex-grow property
   flex-grow: 1;
+}
+
+@media screen and (max-width: 768px) {
+  .latestNewsWindow {
+    box-shadow: 0px 1px 2px -1px #c8cad1;
+    border-radius: 8px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 90%;
+    max-height: 530px;
+    overflow: hidden;
+
+  
+    .latestNewsTitle {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin-left: 5%;
+      font-family: 'InterV_Medium';
+      font-size: 16px;
+      line-height: 20px;
+      /* identical to box height, or 125% */
+  
+      letter-spacing: -0.11px;
+  
+      color: #000000;
+  
+      h2 {
+        font-size: 16;
+        margin-left: 4%;
+      }
+    }
+  
+    .latestNews {
+      display: flex;
+      flex-wrap: wrap;
+      overflow: hidden;
+      overflow-y: scroll;
+      margin-left: 4%;
+      margin-right: 4%;
+      margin-top: 0%;
+  
+      /* width */
+      &::-webkit-scrollbar {
+        width: 5px;
+      }
+  
+      /* Handle */
+      &::-webkit-scrollbar-thumb {
+        background: rgba(0, 0, 0, 0.274);
+        border-radius: 2px;
+      }
+  
+      /* Handle on hover */
+      &::-webkit-scrollbar-thumb:hover {
+        background: rgba(85, 85, 85, 0.774);
+      }
+  
+      .latestTime {
+        font-size: 10px;
+        line-height: 16px;
+        /* identical to box height, or 160% */
+  
+        letter-spacing: -0.0153846px;
+        text-transform: uppercase;
+  
+        color: #1e71bb;
+      }
+  
+      .latestArticle {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        border-bottom: 2px solid #f4f5f8;
+        font-family: 'InterV_Medium';
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: -0.11px;
+        color: #000000;
+  
+        .latestNewsRow {
+          display: flex;
+          flex-direction: column;
+        }
+  
+        .latestTime {
+          font-family: 'InterV_Bold';
+          font-size: 15px;
+          line-height: 16px;
+          /* identical to box height, or 160% */
+  
+          letter-spacing: -0.0153846px;
+          text-transform: uppercase;
+  
+          color: #1e71bb;
+          margin-bottom: 5px;
+        }
+  
+        .title {
+          font-family: 'InterV_Medium';
+          font-size: 16px;
+          line-height: 20px;
+          /* or 125% */
+  
+          letter-spacing: -0.11px;
+  
+          color: #000000;
+        }
+      }
+    } // Add flex-grow property
+    flex-grow: 1;
+  }
 }
