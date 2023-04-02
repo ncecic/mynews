@@ -1,15 +1,15 @@
-import ArticleList from '@/components/ArticleList';
 import { Article, NewsArticleProps } from '@/components/NewsArticle';
 import useLocalStorage from '@/util/useLocaleStorage';
 import { GetServerSideProps } from 'next';
 import { useRouter } from 'next/router';
 import styles from '../../styles/NewsArticle.module.css';
+import ArticleList3By3 from '@/components/ArticleLists/ArticleList3By3';
 
 function CategoryArticles({ data }: NewsArticleProps) {
-  const [savedArticles, setSavedArticles] = useLocalStorage<Article[]>(
-    'savedArticles',
-    []
-  );
+  // const [savedArticles, setSavedArticles] = useLocalStorage<Article[]>(
+  //   'savedArticles',
+  //   []
+  // );
 
   const { articles } = data;
   const router = useRouter();
@@ -19,27 +19,26 @@ function CategoryArticles({ data }: NewsArticleProps) {
   const titleRemainingLetters = title.substring(1);
   const fullTitle = titleFirstLetter + titleRemainingLetters;
 
-  console.log('Category title' + title);
+  // console.log('Category title' + title);
 
-  const handleSaveArticle = (article: Article) => {
-    setSavedArticles([...savedArticles, article]);
-  };
+  // const handleSaveArticle = (article: Article) => {
+  //   setSavedArticles([...savedArticles, article]);
+  // };
 
-  const handleDeleteArticle = (articleTitle: string) => {
-    const updatedSavedArticles = savedArticles.filter(
-      (article) => article.title !== articleTitle
-    );
-    setSavedArticles(updatedSavedArticles);
-  };
+  // const handleDeleteArticle = (articleTitle: string) => {
+  //   const updatedSavedArticles = savedArticles.filter(
+  //     (article) => article.title !== articleTitle
+  //   );
+  //   setSavedArticles(updatedSavedArticles);
+  // };
 
   return (
     <div className={styles.main}>
       <div className={styles.newsContainer}>
         <h1>{fullTitle} News</h1>
         <div className={styles.restOfNews}>
-          <ArticleList
+          <ArticleList3By3
             article={articles}
-            whereToPut="DOWN"
             category={title}
           />
         </div>

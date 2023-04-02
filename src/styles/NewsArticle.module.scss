@@ -5,12 +5,7 @@
 
     .pageItems {
       display: flex;
-      // flex-wrap: wrap;
-      // justify-content: space-between;
-      // align-items: flex-start;
-
-      // Remove max-width property
-      // max-width: 100%;
+      
 
       // Styles for small news section
       .smallNews {
@@ -18,55 +13,9 @@
         flex-grow: 1;
       }
 
-      // Styles for Latest News section
-      .latestNewsWindow {
-        flex-basis: calc(100% / 3 * 1);
-        box-shadow: 0px 1px 2px -1px #c8cad1;
-        border-radius: 8px;
-        background-color: #ffffff;
-        display: flex;
-        flex-direction: column;
-        width: calc(33.3% - 80px);
-        height: 600px;
+      
 
-        h1 {
-          margin-left: 10%;
-        }
-
-        .latestNews {
-          display: flex;
-          flex-wrap: wrap;
-          overflow: hidden;
-          overflow-y: scroll;
-          margin-left: 4%;
-          margin-right: 4%;
-
-          /* width */
-          &::-webkit-scrollbar {
-            width: 5px;
-          }
-
-          /* Handle */
-          &::-webkit-scrollbar-thumb {
-            background: rgba(0, 0, 0, 0.274);
-            border-radius: 2px;
-          }
-
-          /* Handle on hover */
-          &::-webkit-scrollbar-thumb:hover {
-            background: rgba(85, 85, 85, 0.774);
-          }
-
-          .latestArticle {
-            padding-top: 15px;
-            padding-bottom: 15px;
-            border-bottom: 2px solid #f4f5f8;
-          }
-        }
-
-        // Add flex-grow property
-        flex-grow: 1;
-      }
+       
 
       // Styles for rest of news section
       .restOfNews {

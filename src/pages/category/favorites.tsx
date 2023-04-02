@@ -1,7 +1,7 @@
-import ArticleList from '@/components/ArticleList';
 import { Article } from '@/components/NewsArticle';
 import useLocalStorage from '@/util/useLocaleStorage';
 import styles from '../../styles/NewsArticle.module.css';
+import ArticleList3By3 from '@/components/ArticleLists/ArticleList3By3';
 
 
 function FavouriteArticles() {
@@ -12,7 +12,7 @@ function FavouriteArticles() {
       <div className={styles.newsContainer}>
       <h1>Favourite News</h1>
         <div className={styles.restOfNews}>
-          <ArticleList article={savedArticles} whereToPut="DOWN" category='favorites' setSavedArticles={setSavedArticles}/>
+          <ArticleList3By3 article={savedArticles} category='favorites' setSavedArticles={setSavedArticles}/>
         </div>
       </div>
     </div>

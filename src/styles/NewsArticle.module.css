@@ -9,46 +9,6 @@
   flex-basis: 66.6666666667%;
   flex-grow: 1;
 }
-.main .newsContainer .pageItems .latestNewsWindow {
-  flex-basis: 33.3333333333%;
-  box-shadow: 0px 1px 2px -1px #c8cad1;
-  border-radius: 8px;
-  background-color: #ffffff;
-  display: flex;
-  flex-direction: column;
-  width: calc(33.3% - 80px);
-  height: 600px;
-  flex-grow: 1;
-}
-.main .newsContainer .pageItems .latestNewsWindow h1 {
-  margin-left: 10%;
-}
-.main .newsContainer .pageItems .latestNewsWindow .latestNews {
-  display: flex;
-  flex-wrap: wrap;
-  overflow: hidden;
-  overflow-y: scroll;
-  margin-left: 4%;
-  margin-right: 4%;
-  /* width */
-  /* Handle */
-  /* Handle on hover */
-}
-.main .newsContainer .pageItems .latestNewsWindow .latestNews::-webkit-scrollbar {
-  width: 5px;
-}
-.main .newsContainer .pageItems .latestNewsWindow .latestNews::-webkit-scrollbar-thumb {
-  background: rgba(0, 0, 0, 0.274);
-  border-radius: 2px;
-}
-.main .newsContainer .pageItems .latestNewsWindow .latestNews::-webkit-scrollbar-thumb:hover {
-  background: rgba(85, 85, 85, 0.774);
-}
-.main .newsContainer .pageItems .latestNewsWindow .latestNews .latestArticle {
-  padding-top: 15px;
-  padding-bottom: 15px;
-  border-bottom: 2px solid #f4f5f8;
-}
 .main .newsContainer .pageItems .restOfNews {
   flex-basis: 66.6666666667%;
   margin-top: 20px;

@@ -1,8 +1,8 @@
-import ArticleList from '@/components/ArticleList';
 import { Article } from '@/components/NewsArticle';
 import { RootState } from '@/redux/store';
 import { useEffect, useState } from 'react';
 import { useSelector } from 'react-redux';
+import ArticleList3By3 from '@/components/ArticleLists/ArticleList3By3';
 import styles from '../styles/NewsArticle.module.css';
 
 function SearchResult() {
@@ -37,7 +37,7 @@ function SearchResult() {
       <div className={styles.newsContainer}>
         <h1>Search Result</h1>
         <div className={styles.restOfNews}>
-          <ArticleList article={fetchedArticles} whereToPut="DOWN" />
+          <ArticleList3By3 article={fetchedArticles} />
         </div>
       </div>
     </div>
