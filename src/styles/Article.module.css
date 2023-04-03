@@ -1,0 +1,7 @@
+.articleConatiner {
+  display: flex;
+  flex-direction: column;
+}
+.articleConatiner .imageWrapper {
+  display: flex;
+}/*# sourceMappingURL=Article.module.css.map */

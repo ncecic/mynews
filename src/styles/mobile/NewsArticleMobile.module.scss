@@ -1,0 +1,34 @@
+@media screen and (max-width: 768px) {
+    .articlesListContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+    .newsSource {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-content: center;
+      font-family: 'Inter V';
+      /* identical to box height, or 125% */
+  
+      p {
+        padding-right: 20px;
+        padding-left: 20px;
+      }
+  
+      .selected {
+        color: #bb1e1e;
+        background-color: #bb1e1e1a;
+        border-radius: 20px;
+      }
+    }
+
+    .articlesList {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        max-width: 100%;
+    }
+  }

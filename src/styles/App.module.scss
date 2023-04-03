@@ -1,0 +1,61 @@
+@font-face {
+  font-family: 'InterV';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../../public/fonts/Inter-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'InterV_medium';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url('../../public/fonts/Inter-Medium.woff2') format('woff2');
+}
+
+.mainView {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  height: 100%;
+  max-width: 80%;
+}
+
+.searchBar {
+  width: 100%;
+  justify-content: flex-start;
+  align-items: flex-start;
+  top: 0;
+  left: 100;
+}
+
+.newsView {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+}
+
+.categoryView {
+  display: flex;
+  position: sticky;
+  top: 0;
+  left: 100;
+}
+
+.articleView {
+  display: flex;
+  padding-left: 20px; // adjust this to add space between the categories and the article
+}
+
+@media screen and (max-width: 768px) {
+  .newsSource {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    font-family: 'Inter V';
+    z-index: 0;
+
+  }
+}

@@ -1,0 +1,38 @@
+.main {
+  .newsContainer {
+    display: flex;
+    flex-wrap: wrap;
+
+    .pageItems {
+      display: flex;
+      
+
+      // Styles for small news section
+      .smallNews {
+        flex-basis: calc(100% / 3 * 2);
+        flex-grow: 1;
+      }
+
+      
+
+       
+
+      // Styles for rest of news section
+      .restOfNews {
+        flex-basis: calc(100% / 3 * 2);
+        margin-top: 20px;
+
+        // Add flex-grow property
+        flex-grow: 1;
+      }
+    }
+  }
+}
+.failedSearch {
+  display: flex;
+  flex-wrap: wrap;
+  // flex-direction: column;
+  // flex-basis: 100%;
+  // width: 100%;
+  flex-grow: 1;
+}

@@ -1,0 +1,22 @@
+.main .newsContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+.main .newsContainer .pageItems {
+  display: flex;
+}
+.main .newsContainer .pageItems .smallNews {
+  flex-basis: 66.6666666667%;
+  flex-grow: 1;
+}
+.main .newsContainer .pageItems .restOfNews {
+  flex-basis: 66.6666666667%;
+  margin-top: 20px;
+  flex-grow: 1;
+}
+
+.failedSearch {
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+}/*# sourceMappingURL=NewsArticle.module.css.map */
