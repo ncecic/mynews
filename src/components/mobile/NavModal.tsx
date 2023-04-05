@@ -20,19 +20,11 @@ interface NavModalProps {
 }
 
 const NavModal = (props: NavModalProps) => {
-  // const [isNavOpen, setIsNavOpen] = useState(false);
   const router = useRouter();
-
-  // setIsNavOpen(isModalOpen);
-
-  // const toggleNav = () => {
-  //   setIsNavOpen(!isNavOpen);
-  // };
 
   const closeModalHandler = () => {
     props.closeModal();
   }
-
 
   return (
     <nav className={styles.navModal}>
@@ -43,9 +35,9 @@ const NavModal = (props: NavModalProps) => {
         <p className={styles.myStyle}>My</p>
         <p className={styles.newsStyle}>News</p>
       </div>
-      {/* <div className={styles.searchBar}>
-        <SearchBar />
-      </div> */}
+      <div>
+        <SearchBar closeModal={closeModalHandler}/>
+      </div>
       <ul className={`${styles.links}`}>
         <li>
           <Link

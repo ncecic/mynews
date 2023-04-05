@@ -35,7 +35,7 @@ function ArticleListMobile(props: {
   const handleDeleteArticle = (article: Article) => {
     const updatedSavedArticles = savedArticles.filter((savedArticle) => {
       return (
-        article.title !== savedArticle.title && article.url !== savedArticle.url
+       article.url !== savedArticle.url
       );
     });
     if (props.setSavedArticles) {

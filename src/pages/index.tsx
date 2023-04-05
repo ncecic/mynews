@@ -5,6 +5,7 @@ import NewsArticle, { NewsArticleProps } from '../components/NewsArticle';
 
 export default function Home({ data }: NewsArticleProps) {
   const [isMobile, setIsMobile] = useState(false);
+  
 
   useEffect(() => {
     const handleResize = () => setIsMobile(window.innerWidth <= 768);
