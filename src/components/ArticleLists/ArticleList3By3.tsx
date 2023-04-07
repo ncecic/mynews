@@ -65,7 +65,7 @@ function ArticleList3By3(props: {
               </div>
               <div className={styles.contentWrapper}>
                 <p className={styles.category}>
-                  {props.category ? props.category : 'GENERAL'}
+                  {props.category ? props.category.toUpperCase() : 'GENERAL'}
                 </p>
                 <h3 className={styles.title}>{article.title}</h3>
                 <p className={styles.author}>

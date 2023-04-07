@@ -64,6 +64,7 @@
 }
 .searchBarView .searchBar button:hover {
   background: rgba(187, 30, 30, 0.7764705882);
+  cursor: pointer;
 }
 
 @media screen and (max-width: 768px) {

@@ -74,6 +74,7 @@
       line-height: 20px;
       letter-spacing: -0.11px;
       color: #000000;
+      cursor: pointer;
 
       .latestNewsRow {
         display: flex;
@@ -120,7 +121,6 @@
     max-height: 530px;
     overflow: hidden;
 
-  
     .latestNewsTitle {
       display: flex;
       flex-direction: row;
@@ -130,17 +130,17 @@
       font-size: 16px;
       line-height: 20px;
       /* identical to box height, or 125% */
-  
+
       letter-spacing: -0.11px;
-  
+
       color: #000000;
-  
+
       h2 {
         font-size: 16;
         margin-left: 4%;
       }
     }
-  
+
     .latestNews {
       display: flex;
       flex-wrap: wrap;
@@ -149,34 +149,35 @@
       margin-left: 4%;
       margin-right: 4%;
       margin-top: 0%;
-  
+      cursor: pointer;
+
       /* width */
       &::-webkit-scrollbar {
         width: 5px;
       }
-  
+
       /* Handle */
       &::-webkit-scrollbar-thumb {
         background: rgba(0, 0, 0, 0.274);
         border-radius: 2px;
       }
-  
+
       /* Handle on hover */
       &::-webkit-scrollbar-thumb:hover {
         background: rgba(85, 85, 85, 0.774);
       }
-  
+
       .latestTime {
         font-size: 10px;
         line-height: 16px;
         /* identical to box height, or 160% */
-  
+
         letter-spacing: -0.0153846px;
         text-transform: uppercase;
-  
+
         color: #1e71bb;
       }
-  
+
       .latestArticle {
         padding-top: 15px;
         padding-bottom: 15px;
@@ -186,33 +187,33 @@
         line-height: 20px;
         letter-spacing: -0.11px;
         color: #000000;
-  
+
         .latestNewsRow {
           display: flex;
           flex-direction: column;
         }
-  
+
         .latestTime {
           font-family: 'InterV_Bold';
           font-size: 15px;
           line-height: 16px;
           /* identical to box height, or 160% */
-  
+
           letter-spacing: -0.0153846px;
           text-transform: uppercase;
-  
+
           color: #1e71bb;
           margin-bottom: 5px;
         }
-  
+
         .title {
           font-family: 'InterV_Medium';
           font-size: 16px;
           line-height: 20px;
           /* or 125% */
-  
+
           letter-spacing: -0.11px;
-  
+
           color: #000000;
         }
       }

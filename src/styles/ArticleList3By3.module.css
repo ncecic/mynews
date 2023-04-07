@@ -16,6 +16,7 @@
   overflow: hidden;
   position: relative;
   z-index: 1;
+  cursor: pointer;
 }
 .newsItem .imageWrapper {
   height: 200px;
@@ -79,4 +80,5 @@
 }
 .newsItem .addFavorite button:hover {
   background-color: #a30f1f;
+  cursor: pointer;
 }/*# sourceMappingURL=ArticleList3By3.module.css.map */

@@ -4,8 +4,7 @@ import { useEffect, useState } from 'react';
 import NewsArticle, { NewsArticleProps } from '../components/NewsArticle';
 
 export default function Home({ data }: NewsArticleProps) {
-  const [isMobile, setIsMobile] = useState(false);
-  
+  const [isMobile, setIsMobile] = useState(false);  
 
   useEffect(() => {
     const handleResize = () => setIsMobile(window.innerWidth <= 768);
@@ -26,7 +25,7 @@ export const getServerSideProps: GetServerSideProps<
   NewsArticleProps
 > = async () => {
   const res = await fetch(
-    `https://newsapi.org/v2/top-headlines?country=us&apiKey=682af1712e9a4c2f919f36e050bcacfc`
+    `https://newsapi.org/v2/top-headlines?country=us&apiKey=${process.env.API_KEY}`
   );
   const data = await res.json();
 

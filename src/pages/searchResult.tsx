@@ -11,8 +11,6 @@ function SearchResult() {
     (state: RootState) => state.article.articleQuery
   );
   const [fetchedArticles, setFetchedArticles] = useState<Article[]>([]);
-  const current = new Date();
-
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
@@ -23,25 +21,29 @@ function SearchResult() {
   }, []);
 
   useEffect(() => {
+    const today = new Date();
+    const year = today.getFullYear();
+    const month = today.getMonth().toString().padStart(2, '0');
+    const day = today.getDate().toString().padStart(2, '0');
+    const formattedDate = `${year}-${month}-${day}`;
+
     async function getQueryArticles(query: string) {
       const res = await fetch(
-        `https://newsapi.org/v2/everything?q=${query}&from=2023-03-29&to=2023-03-29&sortBy=popularity&apiKey=dab7dd823d4d4222b7fdba1149c2a9f8`
+        `https://newsapi.org/v2/everything?q=${query}&from=${formattedDate}&sortBy=popularity&apiKey=${process.env.API_KEY}`
       );
       const data = await res.json();
-      const today = `${current.getDate()}/${
-        current.getMonth() + 1
-      }/${current.getFullYear()}`;
-
-      console.log('Date time', today);
-
       setFetchedArticles(data.articles);
     }
-
+    
     getQueryArticles(searchQuery);
   }, []);
 
+  console.log('Fetched articles: ', fetchedArticles);
+  console.log('Search query: ', searchQuery);
+
+
   if (!isMobile) {
-    if (!fetchedArticles) {
+    if (fetchedArticles) {
       return (
         <div className={styles.main}>
           <div className={styles.newsContainer}>
@@ -68,7 +70,7 @@ function SearchResult() {
   }
 
   if (isMobile) {
-    if (!fetchedArticles) {
+    if (fetchedArticles) {
       return (
         <div className={styles.main}>
           <div className={styles.newsContainer}>

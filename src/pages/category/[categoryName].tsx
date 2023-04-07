@@ -54,7 +54,7 @@ export const getServerSideProps: GetServerSideProps<NewsArticleProps> = async (
   context: any
 ) => {
   const res = await fetch(
-    `https://newsapi.org/v2/top-headlines?country=us&category=${context.params.categoryName}&apiKey=dab7dd823d4d4222b7fdba1149c2a9f8`
+    `https://newsapi.org/v2/top-headlines?country=us&category=${context.params.categoryName}&apiKey=${process.env.API_KEY}`
   );
   const data = await res.json();
 

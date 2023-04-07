@@ -64,6 +64,7 @@
   line-height: 20px;
   letter-spacing: -0.11px;
   color: #000000;
+  cursor: pointer;
 }
 .latestNewsWindow .latestNews .latestArticle .latestNewsRow {
   display: flex;
@@ -125,6 +126,7 @@
     margin-left: 4%;
     margin-right: 4%;
     margin-top: 0%;
+    cursor: pointer;
     /* width */
     /* Handle */
     /* Handle on hover */

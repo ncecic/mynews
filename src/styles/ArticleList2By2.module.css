@@ -15,6 +15,7 @@
   border-radius: 8px;
   overflow: hidden;
   position: relative;
+  cursor: pointer;
 }
 .newsItem .imageWrapper {
   height: 200px;
@@ -82,4 +83,5 @@
 }
 .newsItem .addFavorite button:hover {
   background-color: #a30f1f;
+  cursor: pointer;
 }/*# sourceMappingURL=ArticleList2By2.module.css.map */
