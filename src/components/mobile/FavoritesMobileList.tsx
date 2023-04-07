@@ -8,14 +8,10 @@ import styles from '../../styles/mobile/ArticleListMobile.module.css';
 function ArticleListMobile(props: {
   article: Article[];
   category?: string;
-  setSavedArticles?: (articles: Article[]) => void;
+  setSavedArticles: (articles: Article[]) => void;
 }) {
   const dispatch = useDispatch();
   const router = useRouter();
-  const [savedArticles, setSavedArticles] = useLocalStorage<Article[]>(
-    'savedArticles',
-    []
-  );
 
   const articles = props.article;
 
@@ -24,35 +20,19 @@ function ArticleListMobile(props: {
     router.push(`/article/${article.title}`);
   }
 
-  const handleSaveArticle = (article: Article) => {
-    if (props.setSavedArticles) {
-      props.setSavedArticles([...savedArticles, article]);
-    } else {
-      setSavedArticles([...savedArticles, article]);
-    }
-  };
-
   const handleDeleteArticle = (article: Article) => {
-    const updatedSavedArticles = savedArticles.filter((savedArticle) => {
-      return (
-       article.url !== savedArticle.url
-      );
+    const updatedSavedArticles = articles.filter((savedArticle) => {
+      return article.url !== savedArticle.url;
     });
-    if (props.setSavedArticles) {
       props.setSavedArticles(updatedSavedArticles);
-    } else {
-      setSavedArticles(updatedSavedArticles);
-    }
+    
   };
 
   return (
     <div className={styles.articlesConatiner}>
       {articles &&
         articles.map((article, index) => (
-          <div
-            key={index}
-            className={styles.newsItem}
-          >
+          <div key={index} className={styles.newsItem}>
             <div onClick={openArticleHandler.bind(null, article)}>
               <div className={styles.imageWrapper}>
                 {article.urlToImage ? (
@@ -71,19 +51,12 @@ function ArticleListMobile(props: {
                 </p>
               </div>
             </div>
-            {props.category === 'favorites' ? (
-              <div className={styles.addFavorite}>
-                <button onClick={handleDeleteArticle.bind(null, article)}>
-                  REMOVE FROM FAVORITES
-                </button>
-              </div>
-            ) : (
-              <div className={styles.addFavorite}>
-                <button onClick={handleSaveArticle.bind(null, article)}>
-                  SAVE TO FAVORITES
-                </button>
-              </div>
-            )}
+
+            <div className={styles.addFavorite}>
+              <button onClick={handleDeleteArticle.bind(null, article)}>
+                REMOVE FROM FAVORITES
+              </button>
+            </div>
           </div>
         ))}
     </div>

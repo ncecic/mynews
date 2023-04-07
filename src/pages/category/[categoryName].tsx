@@ -1,5 +1,4 @@
-import { Article, NewsArticleProps } from '@/components/NewsArticle';
-import useLocalStorage from '@/util/useLocaleStorage';
+import { NewsArticleProps } from '@/components/NewsArticle';
 import { GetServerSideProps } from 'next';
 import { useRouter } from 'next/router';
 import styles from '../../styles/NewsArticle.module.css';
@@ -38,8 +37,12 @@ function CategoryArticles({ data }: NewsArticleProps) {
     );
   } else {
     return (
+      <div className={styles.main}>
+      <div className={styles.newsContainer}>
+        <h1>{fullTitle} News</h1>
       <div className={styles.articlesList}>
         <ArticleListMobile article={articles} category={title} />
+      </div></div>
       </div>
     );
   }

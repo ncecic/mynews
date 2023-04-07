@@ -36,3 +36,22 @@
   // width: 100%;
   flex-grow: 1;
 }
+@media screen and (max-width: 768px) {
+  .main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    text-align: center;
+
+    .newsContainer{
+      justify-content: center;
+      align-items: center;
+    } 
+    .failedSearch {
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}

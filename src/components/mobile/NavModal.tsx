@@ -12,33 +12,37 @@ import {
   IoTv,
   IoVideocam,
 } from 'react-icons/io5';
-import styles from '../../styles/mobile/NavModule.module.css';
+import styles from '../../styles/mobile/NavModal.module.css';
 import SearchBar from '../SearchBar';
 
-const NavigationMobile = () => {
-  const [isNavOpen, setIsNavOpen] = useState(false);
+interface NavModalProps {
+  closeModal: () => void;
+}
+
+const NavModal = (props: NavModalProps) => {
   const router = useRouter();
 
-  const toggleNav = () => {
-    setIsNavOpen(!isNavOpen);
-  };
+  const closeModalHandler = () => {
+    props.closeModal();
+  }
 
   return (
-    <nav className={styles.nav}>
+    <nav className={styles.navModal}>
       <div className={styles.closeModal}>
-        <IoClose size={24} color="#1D1D1B" />
+        <IoClose size={24} color="#1D1D1B" onClick={closeModalHandler}/>
       </div>
       <div className={styles.logo}>
         <p className={styles.myStyle}>My</p>
         <p className={styles.newsStyle}>News</p>
       </div>
-      <div className={styles.searchBar}>
-        <SearchBar />
+      <div className={styles.SearchBar}>
+        <SearchBar closeModal={closeModalHandler}/>
       </div>
-      <ul className={`${styles.links} ${isNavOpen ? styles.open : ''}`}>
+      <ul className={`${styles.links}`}>
         <li>
           <Link
             href={'/'}
+            onClick={closeModalHandler}
             className={`${styles.linkNav} ${
               router.pathname === '/' && styles.active
             }`}
@@ -50,6 +54,7 @@ const NavigationMobile = () => {
         <li>
           <Link
             href={'/category/business'}
+            onClick={closeModalHandler}
             className={`${styles.linkNav} ${
               router.query.categoryName === 'business' && styles.active
             }`}
@@ -61,6 +66,7 @@ const NavigationMobile = () => {
         <li>
           <Link
             href={'/category/technology'}
+            onClick={closeModalHandler}
             className={`${styles.linkNav} ${
               router.query.categoryName === 'technology' && styles.active
             }`}
@@ -72,6 +78,7 @@ const NavigationMobile = () => {
         <li>
           <Link
             href={'/category/entertainment'}
+            onClick={closeModalHandler}
             className={`${styles.linkNav} ${
               router.query.categoryName === 'entertainment' && styles.active
             }`}
@@ -83,6 +90,7 @@ const NavigationMobile = () => {
         <li>
           <Link
             href={'/category/health'}
+            onClick={closeModalHandler}
             className={`${styles.linkNav} ${
               router.query.categoryName === 'health' && styles.active
             }`}
@@ -94,6 +102,7 @@ const NavigationMobile = () => {
         <li>
           <Link
             href={'/category/science'}
+            onClick={closeModalHandler}
             className={`${styles.linkNav} ${
               router.query.categoryName === 'science' && styles.active
             }`}
@@ -105,6 +114,7 @@ const NavigationMobile = () => {
         <li>
           <Link
             href={'/category/sports'}
+            onClick={closeModalHandler}
             className={`${styles.linkNav} ${
               router.query.categoryName === 'sports' && styles.active
             }`}
@@ -116,6 +126,7 @@ const NavigationMobile = () => {
         <li>
           <Link
             href={'/category/favorites'}
+            onClick={closeModalHandler}
             className={`${styles.linkNav} ${
               router.query.categoryName === 'facorites' && styles.active
             }`}
@@ -129,4 +140,4 @@ const NavigationMobile = () => {
   );
 };
 
-export default NavigationMobile;
+export default NavModal;

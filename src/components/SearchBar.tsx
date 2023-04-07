@@ -5,17 +5,24 @@ import { IoSearch } from 'react-icons/io5';
 import { useDispatch } from 'react-redux';
 import styles from '../styles/SearchBar.module.css';
 
-function SearchBar() {
+interface Props {
+  closeModal?: () => void;
+}
+
+function SearchBar(props: Props) {
   const [searchQuery, setSearchQuery] = useState('');
   const router = useRouter();
   const dispatch = useDispatch();
 
   function searchNewsHandler(event: React.FormEvent<HTMLFormElement>) {
     event.preventDefault();
-    
+
     dispatch(searchArticleQuery(searchQuery));
     setSearchQuery('');
-    router.push('/searchResult')
+    if (props.closeModal) {
+      props.closeModal();
+    }
+    router.push('/searchResult');
   }
 
   return (

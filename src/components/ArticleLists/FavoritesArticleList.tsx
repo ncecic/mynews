@@ -3,19 +3,15 @@ import { saveArticle } from '../../redux/articleSlice';
 import { Article } from '../NewsArticle';
 import { useRouter } from 'next/router';
 import useLocalStorage from '@/util/useLocaleStorage';
-import styles from '../../styles/mobile/ArticleListMobile.module.css';
+import styles from '../../styles/ArticleList3By3.module.css';
 
-function ArticleListMobile(props: {
+function FavoritesArticleList(props: {
   article: Article[];
   category?: string;
-  setSavedArticles?: (articles: Article[]) => void;
+  setSavedArticles: (articles: Article[]) => void;
 }) {
   const dispatch = useDispatch();
   const router = useRouter();
-  const [savedArticles, setSavedArticles] = useLocalStorage<Article[]>(
-    'savedArticles',
-    []
-  );
 
   const articles = props.article;
 
@@ -24,25 +20,13 @@ function ArticleListMobile(props: {
     router.push(`/article/${article.title}`);
   }
 
-  const handleSaveArticle = (article: Article) => {
-    if (props.setSavedArticles) {
-      props.setSavedArticles([...savedArticles, article]);
-    } else {
-      setSavedArticles([...savedArticles, article]);
-    }
-  };
-
   const handleDeleteArticle = (article: Article) => {
-    const updatedSavedArticles = savedArticles.filter((savedArticle) => {
+    const updatedSavedArticles = articles.filter((savedArticle) => {
       return (
-       article.url !== savedArticle.url
+        article.title !== savedArticle.title && article.url !== savedArticle.url
       );
     });
-    if (props.setSavedArticles) {
       props.setSavedArticles(updatedSavedArticles);
-    } else {
-      setSavedArticles(updatedSavedArticles);
-    }
   };
 
   return (
@@ -51,7 +35,9 @@ function ArticleListMobile(props: {
         articles.map((article, index) => (
           <div
             key={index}
-            className={styles.newsItem}
+            className={`${styles.newsItem} ${
+              index % 3 === 2 ? styles.lastItem : ''
+            }`}
           >
             <div onClick={openArticleHandler.bind(null, article)}>
               <div className={styles.imageWrapper}>
@@ -71,23 +57,16 @@ function ArticleListMobile(props: {
                 </p>
               </div>
             </div>
-            {props.category === 'favorites' ? (
-              <div className={styles.addFavorite}>
-                <button onClick={handleDeleteArticle.bind(null, article)}>
-                  REMOVE FROM FAVORITES
-                </button>
-              </div>
-            ) : (
-              <div className={styles.addFavorite}>
-                <button onClick={handleSaveArticle.bind(null, article)}>
-                  SAVE TO FAVORITES
-                </button>
-              </div>
-            )}
+
+            <div className={styles.addFavorite}>
+              <button onClick={handleDeleteArticle.bind(null, article)}>
+                REMOVE FROM FAVORITES
+              </button>
+            </div>
           </div>
         ))}
     </div>
   );
 }
 
-export default ArticleListMobile;
+export default FavoritesArticleList;

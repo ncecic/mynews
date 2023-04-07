@@ -1,29 +1,35 @@
-import { useState } from "react";
-import Cookies from "js-cookie";
 
-type StorageKey = "savedArticles";
 
-const useLocalStorage = <T>(key: StorageKey, initialValue: T): [T, (value: T) => void] => {
-  const [storedValue, setStoredValue] = useState<T>(() => {
+import { Dispatch, SetStateAction, useEffect, useRef, useState } from 'react'
+
+export default function useLocalStorage<T>(
+  key: string,
+  defaultValue: T
+): [T, Dispatch<SetStateAction<T>>] {
+  const isMounted = useRef(false)
+  const [value, setValue] = useState<T>(defaultValue)
+
+  useEffect(() => {
     try {
-      const cookieValue = Cookies.get(key);
-      return cookieValue ? JSON.parse(cookieValue) : initialValue;
-    } catch (error) {
-      console.error(`Error getting ${key} from cookie`, error);
-      return initialValue;
+      const item = window.localStorage.getItem(key)
+      if (item) {
+        setValue(JSON.parse(item))
+      }
+    } catch (e) {
+      console.log(e)
     }
-  });
-
-  const setValue = (value: T) => {
-    try {
-      setStoredValue(value);
-      Cookies.set(key, JSON.stringify(value));
-    } catch (error) {
-      console.error(`Error setting ${key} to cookie`, error);
+    return () => {
+      isMounted.current = false
     }
-  };
+  }, [key])
 
-  return [storedValue, setValue];
-};
+  useEffect(() => {
+    if (isMounted.current) {
+      window.localStorage.setItem(key, JSON.stringify(value))
+    } else {
+      isMounted.current = true
+    }
+  }, [key, value])
 
-export default useLocalStorage;
+  return [value, setValue]
+}

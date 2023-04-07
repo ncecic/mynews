@@ -39,7 +39,7 @@ function NewsArticle({ data }: NewsArticleProps) {
           <div className={styles.smallNews}>
             <ArticleList2By2 article={articlesFirstpart} />
           </div>
-          <LatestNews />
+          {/* <LatestNews /> */}
         </div>
         <div className={styles.restOfNews}>
           <ArticleList3By3 article={articlesSecondpart} />
