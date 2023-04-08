@@ -5,17 +5,16 @@
 
     .pageItems {
       display: flex;
-      
+
+      .errorMessage {
+        font-size: 24px;
+      }
 
       // Styles for small news section
       .smallNews {
         flex-basis: calc(100% / 3 * 2);
         flex-grow: 1;
       }
-
-      
-
-       
 
       // Styles for rest of news section
       .restOfNews {
@@ -45,10 +44,10 @@
     align-self: center;
     text-align: center;
 
-    .newsContainer{
+    .newsContainer {
       justify-content: center;
       align-items: center;
-    } 
+    }
     .failedSearch {
       justify-content: center;
       align-items: center;

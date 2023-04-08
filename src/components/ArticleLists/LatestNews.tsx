@@ -1,21 +1,26 @@
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { IoDisc } from 'react-icons/io5';
+import InfiniteScroll from 'react-infinite-scroller';
 import styles from '../../styles/LatestNews.module.css';
-import { Article } from '../NewsArticle';
 
-const LatestNews = () => {
+type Article = {
+  title: string;
+  publishedAt: string;
+  url: string;
+};
+
+const LatestNews = (): JSX.Element => {
   const [articles, setArticles] = useState<Article[]>([]);
-  const [pageNumber, setPageNumber] = useState(1);
-  const [loading, setLoading] = useState(false);
-  const [error, setError] = useState(false);
-  const containerRef = useRef<HTMLDivElement>(null);
+  const [loading, setLoading] = useState<boolean>(false);
+  const [error, setError] = useState<boolean>(false);
 
-  const fetchArticles = async () => {
+  const fetchArticles = async (page: number) => {
     try {
       setLoading(true);
       const response = await fetch(
-        `https://newsapi.org/v2/top-headlines?country=us&apiKey=${process.env.API_KEY}&page=${pageNumber}`
+        `https://newsapi.org/v2/top-headlines?country=us&apiKey=${process.env.API_KEY}&page=${page}`
       );
+      console.log('Requests made: ', page);
       const data = await response.json();
       if (data.articles) {
         setArticles((prevArticles: Article[]) => [
@@ -31,41 +36,16 @@ const LatestNews = () => {
     }
   };
 
-  useEffect(() => {
-    fetchArticles();
-  }, [pageNumber]);
-
-  useEffect(() => {
-    const options = {
-      root: null,
-      rootMargin: '0px',
-      threshold: 1.0,
-    };
-    const observer = new IntersectionObserver((entries) => {
-      if (entries[0].isIntersecting && !loading && !error) {
-        setPageNumber((prevPageNumber) => prevPageNumber + 1);
-      }
-    }, options);
-    if (containerRef.current) {
-      observer.observe(containerRef.current);
-    }
-    return () => {
-      if (containerRef.current) {
-        observer.unobserve(containerRef.current);
-      }
-    };
-  }, [loading, error]);
-
-  const getTime = (time: string) => {
-    const hours = new Date(time).getHours();
-    const minutes = new Date(time).getMinutes();
+  const getTime = (time: string): string => {
+    const hours = new Date(time).getHours().toString().padStart(2, '0');
+    const minutes = new Date(time).getMinutes().toString().padStart(2, '0');
     const fullTimeString = `${hours}:${minutes} `;
     return fullTimeString;
   };
 
-  const handleDivClick = (url: string) => {
+  const handleDivClick = (url: string): void => {
     window.open(url, '_blank');
-  }
+  };
 
   return (
     <div className={styles.latestNewsWindow}>
@@ -73,18 +53,29 @@ const LatestNews = () => {
         <IoDisc size={20} color="#BB1E1E" />
         <h2>Latest News</h2>
       </div>
-      <div className={styles.latestNews} ref={containerRef}>
-        {articles.map((article, index) => (
-          <div key={index} className={styles.latestArticle} onClick={handleDivClick.bind(null, article.url)}>
-            <div className={styles.latestNewsRow}>
-              <span className={styles.latestTime}>
-                {getTime(article.publishedAt)}
-              </span>
-              <span className={styles.latestTitle}>{article.title}</span>
+      <div className={styles.latestNews}>
+        <InfiniteScroll
+          pageStart={0}
+          loadMore={fetchArticles}
+          hasMore={!loading && !error}
+          loader={<div>Loading...</div>}
+          useWindow={false}
+        >
+          {articles.map((article: Article, index: number) => (
+            <div
+              key={index}
+              className={styles.latestArticle}
+              onClick={() => handleDivClick(article.url)}
+            >
+              <div className={styles.latestNewsRow}>
+                <span className={styles.latestTime}>
+                  {getTime(article.publishedAt)}
+                </span>
+                <span className={styles.latestTitle}>{article.title}</span>
+              </div>
             </div>
-          </div>
-        ))}
-        {loading && <div>Loading...</div>}
+          ))}
+        </InfiniteScroll>
         {error && <div>Error loading articles.</div>}
       </div>
     </div>

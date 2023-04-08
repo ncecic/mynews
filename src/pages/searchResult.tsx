@@ -36,7 +36,7 @@ function SearchResult() {
     }
     
     getQueryArticles(searchQuery);
-  }, []);
+  }, [searchQuery]);
 
   console.log('Fetched articles: ', fetchedArticles);
   console.log('Search query: ', searchQuery);

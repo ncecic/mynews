@@ -5,6 +5,9 @@
 .main .newsContainer .pageItems {
   display: flex;
 }
+.main .newsContainer .pageItems .errorMessage {
+  font-size: 24px;
+}
 .main .newsContainer .pageItems .smallNews {
   flex-basis: 66.6666666667%;
   flex-grow: 1;

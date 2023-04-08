@@ -25,9 +25,14 @@ function SearchBar(props: Props) {
     router.push('/searchResult');
   }
 
+  const returnHome = () => {
+    router.push('/');
+
+  }
+
   return (
     <div className={styles.searchBarView}>
-      <h1>
+      <h1 onClick={returnHome}>
         <p className={styles.MyPart}>My</p>
         <p className={styles.NewsPart}>News</p>
       </h1>

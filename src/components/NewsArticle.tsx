@@ -26,10 +26,24 @@ export type NewsArticleProps = {
 function NewsArticle({ data }: NewsArticleProps) {
   const { articles } = data;
 
+  
+  if (!articles) {
+    return (
+      <div className={styles.main}>
+        <div className={styles.newsContainer}>
+          <h1>News</h1>
+          <div className={styles.pageItems}>
+            <div className={styles.errorMessage}>
+              <p>Something has gone wrong. Server did not respond</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
   const articlesFirstpart = articles.slice(0, 4);
   const articlesSecondpart = articles.slice(4, articles.length);
-
-
 
   return (
     <div className={styles.main}>
