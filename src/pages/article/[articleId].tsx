@@ -7,6 +7,8 @@ function FullArticle() {
 
   const article = reduxArticle.article
 
+  const content = article.content.split(" [")[0]
+
   console.log('FullArticle: ', article);
 
   return (
@@ -23,7 +25,8 @@ function FullArticle() {
         <p className={styles.author}>
           {article.author ? `By ${article.author}` : 'Unknown Author'}
         </p>
-        <p>{article.content}</p>
+        <p>{content}</p>
+        <p>If you want to find out more please click <a href={article.url} target='_blank'>here</a></p>
       </div>
     </div>
   );

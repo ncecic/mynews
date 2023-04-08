@@ -5,8 +5,8 @@
   background-color: #ffffff;
   display: flex;
   flex-direction: column;
-  width: calc(33.3% - 80px);
-  height: 600px;
+  width: calc(33.3% - 20px);
+  height: 800px;
   flex-grow: 1;
 }
 .latestNewsWindow .latestNewsTitle {

@@ -13,35 +13,32 @@
   src: url("../../public/fonts/Inter-Medium.woff2") format("woff2");
 }
 .mainView {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-rows: min-content 1fr;
+  grid-template-columns: 100%;
   margin: 0 auto;
   height: 100%;
   max-width: 80%;
 }
-
-.searchBar {
-  width: 100%;
-  justify-content: flex-start;
-  align-items: flex-start;
-  top: 0;
-  left: 100;
+.mainView .searchBar {
+  grid-row: 1/2;
+  grid-column: 1/-1;
 }
-
-.newsView {
-  display: flex;
-  flex: 1;
-  flex-direction: row;
+.mainView .newsView {
+  display: grid;
+  grid-template-rows: min-content;
+  grid-template-columns: minmax(20%, auto) 1fr;
 }
-
-.categoryView {
-  display: flex;
+.mainView .newsView .categoryView {
+  grid-row: 1/2;
+  grid-column: 1/2;
   position: sticky;
   top: 0;
   left: 100;
 }
-
-.articleView {
+.mainView .newsView .articleView {
+  grid-row: 1/2;
+  grid-column: 2/-1;
   display: flex;
   padding-left: 20px;
 }
