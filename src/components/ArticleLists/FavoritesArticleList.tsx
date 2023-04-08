@@ -7,7 +7,6 @@ import styles from '../../styles/ArticleList3By3.module.css';
 
 function FavoritesArticleList(props: {
   article: Article[];
-  category?: string;
   setSavedArticles: (articles: Article[]) => void;
 }) {
   const dispatch = useDispatch();
@@ -49,7 +48,7 @@ function FavoritesArticleList(props: {
               </div>
               <div className={styles.contentWrapper}>
                 <p className={styles.category}>
-                  {props.category ? props.category.toUpperCase() : 'GENERAL'}
+                  {article.category ? article.category.toUpperCase() : 'GENERAL'}
                 </p>
                 <h3 className={styles.title}>{article.title}</h3>
                 <p className={styles.author}>

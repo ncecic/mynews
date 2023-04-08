@@ -25,10 +25,23 @@ function ArticleList3By3(props: {
   }
 
   const handleSaveArticle = (article: Article) => {
-    if (props.setSavedArticles) {
-      props.setSavedArticles([...savedArticles, article]);
+    const isArticleSaved = savedArticles.find((savedArticle) => {
+      return (
+        article.title === savedArticle.title && article.url === savedArticle.url
+      );
+    });
+
+    if (isArticleSaved) {
+      alert('Article already added');
     } else {
-      setSavedArticles([...savedArticles, article]);
+      if (props.setSavedArticles) {
+        console.log('Saved article: ', article);
+        props.setSavedArticles([...savedArticles, article]);
+      } else {
+        console.log('Saved article: ', article);
+
+        setSavedArticles([...savedArticles, article]);
+      }
     }
   };
 
@@ -39,7 +52,7 @@ function ArticleList3By3(props: {
       );
     });
     if (props.setSavedArticles) {
-      props.setSavedArticles(updatedSavedArticles);
+      props.setSavedArticles({ ...updatedSavedArticles });
     } else {
       setSavedArticles(updatedSavedArticles);
     }

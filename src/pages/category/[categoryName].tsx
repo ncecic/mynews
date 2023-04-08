@@ -19,10 +19,19 @@ function CategoryArticles({ data }: NewsArticleProps) {
   const { articles } = data;
   const router = useRouter();
 
+
+
   const title: string = router.query.categoryName as string;
   const titleFirstLetter = title.charAt(0).toUpperCase();
   const titleRemainingLetters = title.substring(1);
   const fullTitle = titleFirstLetter + titleRemainingLetters;
+
+  const categoryArticles = articles.map(article => {
+    return {
+      ...article,
+      category: title.toUpperCase()
+    };
+  });
 
   if (!isMobile) {
     return (
@@ -30,7 +39,7 @@ function CategoryArticles({ data }: NewsArticleProps) {
         <div className={styles.newsContainer}>
           <h1>{fullTitle} News</h1>
           <div className={styles.restOfNews}>
-            <ArticleList3By3 article={articles} category={title} />
+            <ArticleList3By3 article={categoryArticles} category={title.toUpperCase()} />
           </div>
         </div>
       </div>
@@ -41,7 +50,7 @@ function CategoryArticles({ data }: NewsArticleProps) {
       <div className={styles.newsContainer}>
         <h1>{fullTitle} News</h1>
       <div className={styles.articlesList}>
-        <ArticleListMobile article={articles} category={title} />
+        <ArticleListMobile article={categoryArticles} category={title} />
       </div></div>
       </div>
     );

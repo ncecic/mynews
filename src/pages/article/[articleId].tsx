@@ -9,7 +9,6 @@ function FullArticle() {
 
   const content = article.content.split(" [")[0]
 
-  console.log('FullArticle: ', article);
 
   return (
     <div className={styles.articleConatiner}>

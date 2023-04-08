@@ -25,7 +25,7 @@ export const getServerSideProps: GetServerSideProps<
   NewsArticleProps
 > = async () => {
   const res = await fetch(
-    `https://newsapi.org/v2/top-headlines?country=us&apiKey=${process.env.API_KEY}`
+    `https://newsapi.org/v2/top-headlines?sources=bbc-news&apiKey=${process.env.API_KEY}`
   );
   const data = await res.json();
 

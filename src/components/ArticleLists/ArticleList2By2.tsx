@@ -19,8 +19,6 @@ function ArticleList2By2(props: {
 
   const articles = props.article;
 
-  
-
   const getHeight = () => {
     const newsItem = document.querySelector('.newsItem');
     if (newsItem) {
@@ -35,10 +33,20 @@ function ArticleList2By2(props: {
   }
 
   const handleSaveArticle = (article: Article) => {
-    if (props.setSavedArticles) {
-      props.setSavedArticles([...savedArticles, article]);
+    const isArticleSaved = savedArticles.find((savedArticle) => {
+      return (
+        article.title === savedArticle.title && article.url === savedArticle.url
+      );
+    });
+
+    if (isArticleSaved) {
+      alert('Article already added');
     } else {
-      setSavedArticles([...savedArticles, article]);
+      if (props.setSavedArticles) {
+        props.setSavedArticles([...savedArticles, article]);
+      } else {
+        setSavedArticles([...savedArticles, article]);
+      }
     }
   };
 
