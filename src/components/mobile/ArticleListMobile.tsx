@@ -19,6 +19,20 @@ function ArticleListMobile(props: {
 
   const articles = props.article;
 
+  if (!articles) {
+    return (
+      <div className={styles.main}>
+        <div className={styles.articlesConatiner}>
+          <div className={styles.newsItems}>
+            <div className={styles.errorMessage}>
+              <p>Something has gone wrong. Server did not respond</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
   function openArticleHandler(article: Article) {
     dispatch(saveArticle(article));
     router.push(`/article/${article.title}`);

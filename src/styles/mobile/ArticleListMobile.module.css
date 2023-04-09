@@ -18,6 +18,10 @@
   overflow: hidden;
   position: relative;
 }
+.newsItem .errorMessage {
+  font-family: "InterV";
+  font-size: 24px;
+}
 .newsItem .imageWrapper {
   height: 200px;
   overflow: hidden;

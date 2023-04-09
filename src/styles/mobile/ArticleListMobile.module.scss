@@ -5,7 +5,9 @@
   margin: auto;
   font-family: 'InterV_medium';
   z-index: 0;
-}
+}  
+
+
 
 .newsItem {
   width: 100%;
@@ -17,6 +19,12 @@
   border-radius: 8px;
   overflow: hidden;
   position: relative;
+  
+  .errorMessage {
+    font-family: 'InterV';
+    font-size: 24px;
+  
+  }
 
   .imageWrapper {
     height: 200px;

@@ -19,17 +19,30 @@ function CategoryArticles({ data }: NewsArticleProps) {
   const { articles } = data;
   const router = useRouter();
 
-
-
   const title: string = router.query.categoryName as string;
   const titleFirstLetter = title.charAt(0).toUpperCase();
   const titleRemainingLetters = title.substring(1);
   const fullTitle = titleFirstLetter + titleRemainingLetters;
 
-  const categoryArticles = articles.map(article => {
+  if (!articles) {
+    return (
+      <div className={styles.main}>
+        <div className={styles.newsContainer}>
+          <h1>{fullTitle} News</h1>
+          <div className={styles.pageItems}>
+            <div className={styles.errorMessage}>
+              <p>Something has gone wrong. Server did not respond</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  const categoryArticles = articles.map((article) => {
     return {
       ...article,
-      category: title.toUpperCase()
+      category: title.toUpperCase(),
     };
   });
 
@@ -39,7 +52,10 @@ function CategoryArticles({ data }: NewsArticleProps) {
         <div className={styles.newsContainer}>
           <h1>{fullTitle} News</h1>
           <div className={styles.restOfNews}>
-            <ArticleList3By3 article={categoryArticles} category={title.toUpperCase()} />
+            <ArticleList3By3
+              article={categoryArticles}
+              category={title.toUpperCase()}
+            />
           </div>
         </div>
       </div>
@@ -47,11 +63,12 @@ function CategoryArticles({ data }: NewsArticleProps) {
   } else {
     return (
       <div className={styles.main}>
-      <div className={styles.newsContainer}>
-        <h1>{fullTitle} News</h1>
-      <div className={styles.articlesList}>
-        <ArticleListMobile article={categoryArticles} category={title} />
-      </div></div>
+        <div className={styles.newsContainer}>
+          <h1>{fullTitle} News</h1>
+          <div className={styles.articlesList}>
+            <ArticleListMobile article={categoryArticles} category={title} />
+          </div>
+        </div>
       </div>
     );
   }
