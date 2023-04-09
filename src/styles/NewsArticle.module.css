@@ -1,3 +1,6 @@
+.main {
+  font-family: "InterV";
+}
 .main .newsContainer {
   display: flex;
   flex-wrap: wrap;
@@ -6,6 +9,7 @@
   display: flex;
 }
 .main .newsContainer .pageItems .errorMessage {
+  font-family: "InterV";
   font-size: 24px;
 }
 .main .newsContainer .pageItems .smallNews {
@@ -32,6 +36,7 @@
     align-content: center;
     align-self: center;
     text-align: center;
+    font-family: "InterV";
   }
   .main .newsContainer {
     justify-content: center;

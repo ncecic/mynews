@@ -1,12 +1,16 @@
 .main {
+  font-family: 'InterV';
+
   .newsContainer {
     display: flex;
     flex-wrap: wrap;
+    
 
     .pageItems {
       display: flex;
 
       .errorMessage {
+        font-family: 'InterV';
         font-size: 24px;
       }
 
@@ -43,6 +47,7 @@
     align-content: center;
     align-self: center;
     text-align: center;
+    font-family: 'InterV';
 
     .newsContainer {
       justify-content: center;

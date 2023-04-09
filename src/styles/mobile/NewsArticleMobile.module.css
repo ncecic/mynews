@@ -3,23 +3,24 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: "InterV";
   }
   .newsSource {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-content: center;
-    font-family: "Inter V";
+    font-family: "InterV_bold";
     /* identical to box height, or 125% */
-  }
-  .newsSource p {
-    padding-right: 20px;
-    padding-left: 20px;
   }
   .newsSource .selected {
     color: #bb1e1e;
     background-color: rgba(187, 30, 30, 0.1019607843);
     border-radius: 20px;
+  }
+  .newsSource p {
+    padding-right: 20px;
+    padding-left: 20px;
   }
   .articlesList {
     display: flex;

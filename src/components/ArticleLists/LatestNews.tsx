@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 import { IoDisc } from 'react-icons/io5';
 import InfiniteScroll from 'react-infinite-scroller';
 import styles from '../../styles/LatestNews.module.css';
