@@ -13,7 +13,7 @@ MyNews is a simple frontend application built using Next.js and Sass/SCSS, that 
 
 ## Requirements
 - The app should contain a "homepage" for all articles grouped by categories and sorted chronologically.
-"Latest news" widget must implement infinite scroll functionality.
+- "Latest news" widget must implement infinite scroll functionality.
 - Each category must be clickable and lead to a "category page" where you can find all articles from that category.
 - The app should have a search filter (by name) for the article list.
 - The app should have a feature for bookmarking favorite articles (use app state or browser storage).
@@ -36,14 +36,14 @@ To start the application, run:
 ```shell
 $ npm start
 ```
-Access the app on http://localhost:3000/.
+Access the app on `http://localhost:3000/`.
 
 ## Design Decisions
 - Used a clean and simple design to make the user interface easy to navigate.
 - Used SCSS to improve the CSS readability and maintainability.
 - Used Next.js to leverage its server-side rendering and better SEO optimization.
-- Used React hooks for state management and to make the code more modular and reusable.
-- Implemented the "Favorites" feature using the browser's local storage instead of using an external database or server. This was done to simplify the implementation and reduce the app's dependencies, making it easier to deploy and maintain. i Choose to put it at the bottom of news article element where it is easy to see and use in both mobile and desktop view
+- Used TypeScript for type checking and to make the code more robust and maintainable.
+- Implemented the "Favorites" feature using the browser's local storage instead of using an external database or server. This was done to simplify the implementation and reduce the app's dependencies, making it easier to deploy and maintain. I chose to put it at the bottom of the news article element where it is easy to see and use in both mobile and desktop views.
 
 ## Technologies Used
 - React - A JavaScript library for building user interfaces.
@@ -61,7 +61,7 @@ The NewsAPI was used in this project instead of the New York Times API due to th
 - The NewsAPI provides news articles from various sources and categories, while the New York Times API only provides articles from the New York Times.
 
 ## API Key
-MyNews uses the NewsAPI to fetch news articles. To use the app, you need to obtain an API key from NewsAPI and add it to a .env.local file in the root of the project:
+MyNews uses the NewsAPI to fetch news articles. To use the app, you need to obtain an API key from NewsAPI and add it to a `.env.local` file in the root of the project:
 ```javascript
 API_KEY=<your API key here>
 ```
