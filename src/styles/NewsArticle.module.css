@@ -26,6 +26,8 @@
   display: flex;
   flex-wrap: wrap;
   flex-grow: 1;
+  align-items: flex-start;
+  justify-content: center;
 }
 
 @media screen and (max-width: 768px) {
@@ -43,6 +45,8 @@
     align-items: center;
   }
   .main .failedSearch {
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
   }

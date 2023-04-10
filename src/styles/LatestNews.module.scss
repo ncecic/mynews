@@ -7,7 +7,7 @@
   display: flex;
   flex-direction: column;
   width: calc(33.3% - 20px);
-  height: 800px;
+  height: 795px;
   font-family: 'InterV';
 
 
@@ -19,10 +19,7 @@
     font-family: 'InterV_Medium';
     font-size: 16px;
     line-height: 20px;
-    /* identical to box height, or 125% */
-
     letter-spacing: -0.11px;
-
     color: #000000;
 
     h2 {
@@ -36,22 +33,18 @@
     flex-wrap: wrap;
     overflow: hidden;
     overflow-y: scroll;
-    margin-left: 4%;
-    margin-right: 4%;
-    margin-top: 0%;
+    padding-left: 4%;
+    padding-right: 4%;
 
-    /* width */
     &::-webkit-scrollbar {
       width: 5px;
     }
 
-    /* Handle */
     &::-webkit-scrollbar-thumb {
       background: rgba(0, 0, 0, 0.274);
       border-radius: 2px;
     }
 
-    /* Handle on hover */
     &::-webkit-scrollbar-thumb:hover {
       background: rgba(85, 85, 85, 0.774);
     }
@@ -59,11 +52,8 @@
     .latestTime {
       font-size: 10px;
       line-height: 16px;
-      /* identical to box height, or 160% */
-
       letter-spacing: -0.0153846px;
       text-transform: uppercase;
-
       color: #1e71bb;
     }
 
@@ -87,11 +77,8 @@
         font-family: 'InterV_Bold';
         font-size: 15px;
         line-height: 16px;
-        /* identical to box height, or 160% */
-
         letter-spacing: -0.0153846px;
         text-transform: uppercase;
-
         color: #1e71bb;
         margin-bottom: 5px;
       }
@@ -100,14 +87,11 @@
         font-family: 'InterV_Medium';
         font-size: 16px;
         line-height: 20px;
-        /* or 125% */
-
         letter-spacing: -0.11px;
-
         color: #000000;
       }
     }
-  } // Add flex-grow property
+  }
   flex-grow: 1;
 }
 
@@ -131,10 +115,7 @@
       font-family: 'InterV_Medium';
       font-size: 16px;
       line-height: 20px;
-      /* identical to box height, or 125% */
-
       letter-spacing: -0.11px;
-
       color: #000000;
 
       h2 {
@@ -153,18 +134,15 @@
       margin-top: 0%;
       cursor: pointer;
 
-      /* width */
       &::-webkit-scrollbar {
         width: 5px;
       }
 
-      /* Handle */
       &::-webkit-scrollbar-thumb {
         background: rgba(0, 0, 0, 0.274);
         border-radius: 2px;
       }
 
-      /* Handle on hover */
       &::-webkit-scrollbar-thumb:hover {
         background: rgba(85, 85, 85, 0.774);
       }
@@ -172,11 +150,8 @@
       .latestTime {
         font-size: 10px;
         line-height: 16px;
-        /* identical to box height, or 160% */
-
         letter-spacing: -0.0153846px;
         text-transform: uppercase;
-
         color: #1e71bb;
       }
 
@@ -199,11 +174,8 @@
           font-family: 'InterV_Bold';
           font-size: 15px;
           line-height: 16px;
-          /* identical to box height, or 160% */
-
           letter-spacing: -0.0153846px;
           text-transform: uppercase;
-
           color: #1e71bb;
           margin-bottom: 5px;
         }
@@ -212,14 +184,11 @@
           font-family: 'InterV_Medium';
           font-size: 16px;
           line-height: 20px;
-          /* or 125% */
-
           letter-spacing: -0.11px;
-
           color: #000000;
         }
       }
-    } // Add flex-grow property
+    }
     flex-grow: 1;
   }
 }

@@ -4,7 +4,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
-  flex-shrink: 1;
+  flex-shrink: 0;
   border-bottom: 1px solid rgba(151, 151, 151, 0.0901960784);
 }
 .searchBarView h1 {
@@ -33,7 +33,7 @@
   box-shadow: 0px 1px 2px -1px #c8cad1;
   border-radius: 1em;
   padding: 0.5em;
-  width: 40vw;
+  width: 250%;
   height: 2em;
   justify-content: center;
   flex-shrink: 1;
@@ -86,7 +86,7 @@
     background-color: "#FFFFFF";
     box-shadow: 0px 1px 2px -1px #c8cad1;
     border-radius: 1em;
-    height: 3em;
+    height: 2em;
     width: 21.4375em;
     left: 0;
     top: 0;

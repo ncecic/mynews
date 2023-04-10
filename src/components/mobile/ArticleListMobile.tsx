@@ -69,6 +69,10 @@ function ArticleListMobile(props: {
     }
   };
 
+  const onGoToArticleHandler = (url: string): void => {
+    window.open(url, '_blank');
+  };
+
   return (
     <div className={styles.articlesConatiner}>
       {articles &&
@@ -77,7 +81,7 @@ function ArticleListMobile(props: {
             key={index}
             className={styles.newsItem}
           >
-            <div onClick={openArticleHandler.bind(null, article)}>
+            <div onClick={onGoToArticleHandler.bind(null, article.url)}>
               <div className={styles.imageWrapper}>
                 {article.urlToImage ? (
                   <img src={article.urlToImage} alt={article.title} />

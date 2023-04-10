@@ -35,11 +35,8 @@ function ArticleList3By3(props: {
       alert('Article already added');
     } else {
       if (props.setSavedArticles) {
-        console.log('Saved article: ', article);
         props.setSavedArticles([...savedArticles, article]);
       } else {
-        console.log('Saved article: ', article);
-
         setSavedArticles([...savedArticles, article]);
       }
     }
@@ -58,6 +55,10 @@ function ArticleList3By3(props: {
     }
   };
 
+  const onGoToArticleHandler = (url: string): void => {
+    window.open(url, '_blank');
+  };
+
   return (
     <div className={styles.articlesConatiner}>
       {articles &&
@@ -68,7 +69,7 @@ function ArticleList3By3(props: {
               index % 3 === 2 ? styles.lastItem : ''
             }`}
           >
-            <div onClick={openArticleHandler.bind(null, article)}>
+            <div onClick={onGoToArticleHandler.bind(null, article.url)}>
               <div className={styles.imageWrapper}>
                 {article.urlToImage ? (
                   <img src={article.urlToImage} alt={article.title} />

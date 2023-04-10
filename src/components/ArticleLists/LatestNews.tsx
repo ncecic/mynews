@@ -20,7 +20,6 @@ const LatestNews = (): JSX.Element => {
       const response = await fetch(
         `https://newsapi.org/v2/top-headlines?country=us&apiKey=${process.env.API_KEY}`
       );
-      console.log('Requests made: ', page);
       const data = await response.json();
       if (data.articles) {
         setArticles((prevArticles: Article[]) => [
@@ -43,7 +42,7 @@ const LatestNews = (): JSX.Element => {
     return fullTimeString;
   };
 
-  const handleDivClick = (url: string): void => {
+  const onOpenArticleHandler = (url: string): void => {
     window.open(url, '_blank');
   };
 
@@ -58,14 +57,14 @@ const LatestNews = (): JSX.Element => {
           pageStart={0}
           loadMore={fetchArticles}
           hasMore={!loading && !error}
-          loader={<div>Loading...</div>}
+          loader={<div key={0}>Loading...</div>}
           useWindow={false}
         >
           {articles.map((article: Article, index: number) => (
             <div
               key={index}
               className={styles.latestArticle}
-              onClick={() => handleDivClick(article.url)}
+              onClick={() => onOpenArticleHandler(article.url)}
             >
               <div className={styles.latestNewsRow}>
                 <span className={styles.latestTime}>

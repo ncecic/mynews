@@ -4,7 +4,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
-  flex-shrink: 1;
+  flex-shrink: 0;
   border-bottom: 1px solid #97979717;
 
   h1 {
@@ -36,7 +36,7 @@
     box-shadow: 0px 1px 2px -1px #c8cad1;
     border-radius: 1em;
     padding: 0.5em;
-    width: 40vw;
+    width: 250%;
     height: 2em;
     justify-content: center;
     flex-shrink: 1;
@@ -85,7 +85,6 @@
     justify-content: space-between;
     align-content: center;
     font-family: 'InterV';
-    // margin-top: -100px;
 
     h1,
     button {
@@ -96,7 +95,7 @@
       background-color: '#FFFFFF';
       box-shadow: 0px 1px 2px -1px #c8cad1;
       border-radius: 1em;
-      height: 3em;
+      height: 2em;
       width: 21.4375em;
       left: 0;
       top: 0;

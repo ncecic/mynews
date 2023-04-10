@@ -23,7 +23,6 @@ function ArticleList2By2(props: {
     const newsItem = document.querySelector('.newsItem');
     if (newsItem) {
       const { width, height } = newsItem.getBoundingClientRect();
-      console.log('Height: ', height);
     }
   };
 
@@ -63,6 +62,10 @@ function ArticleList2By2(props: {
     }
   };
 
+  const onGoToArticleHandler = (url: string): void => {
+    window.open(url, '_blank');
+  };
+
   return (
     <div className={styles.articlesConatiner}>
       {articles &&
@@ -73,7 +76,7 @@ function ArticleList2By2(props: {
               index % 3 === 2 ? styles.lastItem : ''
             }`}
           >
-            <div onClick={openArticleHandler.bind(null, article)}>
+            <div onClick={onGoToArticleHandler.bind(null, article.url)}>
               <div className={styles.imageWrapper}>
                 {article.urlToImage ? (
                   <img src={article.urlToImage} alt={article.title} />

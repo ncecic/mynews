@@ -27,21 +27,14 @@ export const articleSlice = createSlice({
   reducers: {
     saveArticle: (state, action: PayloadAction<Article>) => {
       state.article = action.payload;
-      // console.log('Redux state', state.article);
     },
     searchArticleQuery: (state, action: PayloadAction<string>) => {
       state.articleQuery = action.payload
     },
-    // decrement: (state) => {
-    //   state.value -= 1
-    // },
-    // incrementByAmount: (state, action: PayloadAction<number>) => {
-    //   state.value += action.payload
-    // },
+
   },
 });
 
-// Action creators are generated for each case reducer function
 export const { saveArticle, searchArticleQuery } = articleSlice.actions;
 
 export default articleSlice.reducer;

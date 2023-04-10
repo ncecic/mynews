@@ -6,7 +6,7 @@
   display: flex;
   flex-direction: column;
   width: calc(33.3% - 20px);
-  height: 800px;
+  height: 795px;
   font-family: "InterV";
   flex-grow: 1;
 }
@@ -18,7 +18,6 @@
   font-family: "InterV_Medium";
   font-size: 16px;
   line-height: 20px;
-  /* identical to box height, or 125% */
   letter-spacing: -0.11px;
   color: #000000;
 }
@@ -31,12 +30,8 @@
   flex-wrap: wrap;
   overflow: hidden;
   overflow-y: scroll;
-  margin-left: 4%;
-  margin-right: 4%;
-  margin-top: 0%;
-  /* width */
-  /* Handle */
-  /* Handle on hover */
+  padding-left: 4%;
+  padding-right: 4%;
 }
 .latestNewsWindow .latestNews::-webkit-scrollbar {
   width: 5px;
@@ -51,7 +46,6 @@
 .latestNewsWindow .latestNews .latestTime {
   font-size: 10px;
   line-height: 16px;
-  /* identical to box height, or 160% */
   letter-spacing: -0.0153846px;
   text-transform: uppercase;
   color: #1e71bb;
@@ -75,7 +69,6 @@
   font-family: "InterV_Bold";
   font-size: 15px;
   line-height: 16px;
-  /* identical to box height, or 160% */
   letter-spacing: -0.0153846px;
   text-transform: uppercase;
   color: #1e71bb;
@@ -85,7 +78,6 @@
   font-family: "InterV_Medium";
   font-size: 16px;
   line-height: 20px;
-  /* or 125% */
   letter-spacing: -0.11px;
   color: #000000;
 }
@@ -111,7 +103,6 @@
     font-family: "InterV_Medium";
     font-size: 16px;
     line-height: 20px;
-    /* identical to box height, or 125% */
     letter-spacing: -0.11px;
     color: #000000;
   }
@@ -128,9 +119,6 @@
     margin-right: 4%;
     margin-top: 0%;
     cursor: pointer;
-    /* width */
-    /* Handle */
-    /* Handle on hover */
   }
   .latestNewsWindow .latestNews::-webkit-scrollbar {
     width: 5px;
@@ -145,7 +133,6 @@
   .latestNewsWindow .latestNews .latestTime {
     font-size: 10px;
     line-height: 16px;
-    /* identical to box height, or 160% */
     letter-spacing: -0.0153846px;
     text-transform: uppercase;
     color: #1e71bb;
@@ -168,7 +155,6 @@
     font-family: "InterV_Bold";
     font-size: 15px;
     line-height: 16px;
-    /* identical to box height, or 160% */
     letter-spacing: -0.0153846px;
     text-transform: uppercase;
     color: #1e71bb;
@@ -178,7 +164,6 @@
     font-family: "InterV_Medium";
     font-size: 16px;
     line-height: 20px;
-    /* or 125% */
     letter-spacing: -0.11px;
     color: #000000;
   }

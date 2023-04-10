@@ -7,14 +7,26 @@
   z-index: 999;
   font-family: "InterV";
 }
-.nav .header {
+.nav .navContainer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 100%;
+}
+.nav .navContainer .searchBar {
+  display: flex;
+  flex: 1;
+  padding-bottom: 1rem;
+  justify-content: center;
+}
+.nav .navContainer .header {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
   width: 100%;
 }
-.nav .header .logo {
+.nav .navContainer .header .logo {
   font-size: 24px;
   color: #1d1d1b;
   display: flex;
@@ -29,13 +41,13 @@
   padding-right: 100px;
   margin-left: 5%;
 }
-.nav .header .logo .myStyle {
+.nav .navContainer .header .logo .myStyle {
   color: #bb1e1e;
 }
-.nav .header .logo .newsStyle {
+.nav .navContainer .header .logo .newsStyle {
   color: #1d1d1b;
 }
-.nav .header .hamburger {
+.nav .navContainer .header .hamburger {
   display: flex;
   flex: 1;
   flex-direction: column;
@@ -45,7 +57,7 @@
   cursor: pointer;
   z-index: 2;
 }
-.nav .header .hamburger div {
+.nav .navContainer .header .hamburger div {
   width: 30px;
   height: 3px;
   background-color: #1d1d1b;

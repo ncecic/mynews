@@ -24,8 +24,6 @@
       .restOfNews {
         flex-basis: calc(100% / 3 * 2);
         margin-top: 20px;
-
-        // Add flex-grow property
         flex-grow: 1;
       }
     }
@@ -34,10 +32,9 @@
 .failedSearch {
   display: flex;
   flex-wrap: wrap;
-  // flex-direction: column;
-  // flex-basis: 100%;
-  // width: 100%;
   flex-grow: 1;
+  align-items: flex-start;
+  justify-content: center;
 }
 @media screen and (max-width: 768px) {
   .main {
@@ -54,6 +51,8 @@
       align-items: center;
     }
     .failedSearch {
+      display: flex;
+      flex-wrap: wrap;
       justify-content: center;
       align-items: center;
     }

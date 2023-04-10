@@ -38,12 +38,8 @@ function SearchResult() {
     getQueryArticles(searchQuery);
   }, [searchQuery]);
 
-  console.log('Fetched articles: ', fetchedArticles);
-  console.log('Search query: ', searchQuery);
-
-
   if (!isMobile) {
-    if (fetchedArticles) {
+    if (fetchedArticles && fetchedArticles.length > 0) {
       return (
         <div className={styles.main}>
           <div className={styles.newsContainer}>
@@ -70,7 +66,7 @@ function SearchResult() {
   }
 
   if (isMobile) {
-    if (fetchedArticles) {
+    if (fetchedArticles && fetchedArticles.length > 0 ) {
       return (
         <div className={styles.main}>
           <div className={styles.newsContainer}>
