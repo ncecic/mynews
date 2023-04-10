@@ -22,18 +22,18 @@ MyNews is a simple frontend application built using Next.js and Sass/SCSS, that 
 
 ## Installation
 To install MyNews, first clone the repository:
-```
+```shell
 $ git clone https://github.com/ncecic/mynews.git
 ```
 Then, install the dependencies using npm:
-```
+```shell
 $ cd mynews
 $ npm install
 ```
 
 ## Usage
 To start the application, run:
-```
+```shell
 $ npm start
 ```
 Access the app on http://localhost:3000/.
@@ -62,6 +62,6 @@ The NewsAPI was used in this project instead of the New York Times API due to th
 
 ## API Key
 MyNews uses the NewsAPI to fetch news articles. To use the app, you need to obtain an API key from NewsAPI and add it to a .env.local file in the root of the project:
-```
+```javascript
 API_KEY=<your API key here>
 ```
