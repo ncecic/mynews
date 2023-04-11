@@ -6,12 +6,13 @@ import ArticleList3By3 from '@/components/ArticleLists/ArticleList3By3';
 import styles from '../styles/NewsArticle.module.css';
 import ArticleListMobile from '@/components/mobile/ArticleListMobile';
 
-function SearchResult() {
+const SearchResult = () => {
   const searchQuery = useSelector(
     (state: RootState) => state.article.articleQuery
   );
   const [fetchedArticles, setFetchedArticles] = useState<Article[]>([]);
   const [isMobile, setIsMobile] = useState(false);
+
 
   useEffect(() => {
     const handleResize = () => setIsMobile(window.innerWidth <= 768);
@@ -27,14 +28,19 @@ function SearchResult() {
     const day = today.getDate().toString().padStart(2, '0');
     const formattedDate = `${year}-${month}-${day}`;
 
-    async function getQueryArticles(query: string) {
-      const res = await fetch(
-        `https://newsapi.org/v2/everything?q=${query}&from=${formattedDate}&sortBy=popularity&apiKey=${process.env.API_KEY}`
-      );
-      const data = await res.json();
-      setFetchedArticles(data.articles);
-    }
-    
+    const getQueryArticles = async (query: string) => {
+      try {
+        const res = await fetch(
+          `https://newsapi.org/v2/everything?q=${query}&from=${formattedDate}&sortBy=popularity&apiKey=${process.env.API_KEY}`
+        );
+        const data = await res.json();
+        setFetchedArticles(data.articles);
+      } catch (error) {
+        console.error(error);
+        console.log(error);
+        setFetchedArticles([]);
+      }
+    };
     getQueryArticles(searchQuery);
   }, [searchQuery]);
 
@@ -66,7 +72,7 @@ function SearchResult() {
   }
 
   if (isMobile) {
-    if (fetchedArticles && fetchedArticles.length > 0 ) {
+    if (fetchedArticles && fetchedArticles.length > 0) {
       return (
         <div className={styles.main}>
           <div className={styles.newsContainer}>
@@ -91,6 +97,6 @@ function SearchResult() {
       );
     }
   }
-}
+};
 
 export default SearchResult;

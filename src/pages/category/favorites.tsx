@@ -5,7 +5,7 @@ import { useEffect, useState } from 'react';
 import FavoritesArticleList from '@/components/ArticleLists/FavoritesArticleList';
 import FavoritesMobileList from '../../components/mobile/FavoritesMobileList';
 
-function FavouriteArticles() {
+const FavouriteArticles = () => {
   const [savedArticles, setSavedArticles] = useLocalStorage<Article[]>(
     'savedArticles',
     []
@@ -79,6 +79,6 @@ function FavouriteArticles() {
       );
     }
   }
-}
+};
 
 export default FavouriteArticles;

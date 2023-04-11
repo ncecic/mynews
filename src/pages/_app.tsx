@@ -18,8 +18,6 @@ export default function App({ Component, pageProps }: AppProps) {
     return () => window.removeEventListener('resize', handleResize);
   }, []);
 
- 
-
   if (!isMobile) {
     return (
       <>
@@ -43,13 +41,12 @@ export default function App({ Component, pageProps }: AppProps) {
   }
 
   if (isMobile) {
-   
     return (
       <>
         <Provider store={store}>
           <NavigationMobile />
           <div className={styles.newsSource}>
-          <Component {...pageProps} />
+            <Component {...pageProps} />
           </div>
         </Provider>
       </>

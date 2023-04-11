@@ -9,12 +9,12 @@ interface Props {
   closeModal?: () => void;
 }
 
-function SearchBar(props: Props) {
+const SearchBar = (props: Props) => {
   const [searchQuery, setSearchQuery] = useState('');
   const router = useRouter();
   const dispatch = useDispatch();
 
-  function searchNewsHandler(event: React.FormEvent<HTMLFormElement>) {
+  const searchNewsHandler = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
 
     dispatch(searchArticleQuery(searchQuery));
@@ -23,12 +23,11 @@ function SearchBar(props: Props) {
       props.closeModal();
     }
     router.push('/searchResult');
-  }
+  };
 
   const returnHome = () => {
     router.push('/');
-
-  }
+  };
 
   return (
     <div className={styles.searchBarView}>
@@ -52,6 +51,6 @@ function SearchBar(props: Props) {
       </form>
     </div>
   );
-}
+};
 
 export default SearchBar;

@@ -5,11 +5,11 @@ import { useRouter } from 'next/router';
 import useLocalStorage from '@/util/useLocaleStorage';
 import styles from '../../styles/mobile/ArticleListMobile.module.css';
 
-function ArticleListMobile(props: {
+const ArticleListMobile = (props: {
   article: Article[];
   category?: string;
   setSavedArticles?: (articles: Article[]) => void;
-}) {
+}) => {
   const dispatch = useDispatch();
   const router = useRouter();
   const [savedArticles, setSavedArticles] = useLocalStorage<Article[]>(
@@ -33,10 +33,6 @@ function ArticleListMobile(props: {
     );
   }
 
-  function openArticleHandler(article: Article) {
-    dispatch(saveArticle(article));
-    router.push(`/article/${article.title}`);
-  }
 
   const handleSaveArticle = (article: Article) => {
     const isArticleSaved = savedArticles.find((savedArticle) => {

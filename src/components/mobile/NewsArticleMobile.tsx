@@ -3,7 +3,7 @@ import ArticleListMobile from './ArticleListMobile';
 import styles from '../../styles/mobile/NewsArticleMobile.module.css';
 import LatestNews from '../ArticleLists/LatestNews';
 
-export type Article = {
+export interface Article {
   source: { id: string; name: string };
   author: string;
   title: string;
@@ -15,7 +15,7 @@ export type Article = {
   category?: string;
 };
 
-export type NewsArticleProps = {
+export interface NewsArticleProps {
   data: {
     articles: Article[];
     status: string;
@@ -23,7 +23,7 @@ export type NewsArticleProps = {
   };
 };
 
-function NewsArticleMobile({ data }: NewsArticleProps) {
+const NewsArticleMobile = ({ data }: NewsArticleProps) => {
   const { articles } = data;
   let featuredElement: JSX.Element;
 

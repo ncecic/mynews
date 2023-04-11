@@ -1,35 +1,18 @@
-import { useDispatch } from 'react-redux';
-import { saveArticle } from '../../redux/articleSlice';
 import { Article } from '../NewsArticle';
-import { useRouter } from 'next/router';
 import useLocalStorage from '@/util/useLocaleStorage';
 import styles from '../../styles/ArticleList2By2.module.css';
 
-function ArticleList2By2(props: {
+const ArticleList2By2 = (props: {
   article: Article[];
   category?: string;
   setSavedArticles?: (articles: Article[]) => void;
-}) {
-  const dispatch = useDispatch();
-  const router = useRouter();
+}) => {
   const [savedArticles, setSavedArticles] = useLocalStorage<Article[]>(
     'savedArticles',
     []
   );
 
   const articles = props.article;
-
-  const getHeight = () => {
-    const newsItem = document.querySelector('.newsItem');
-    if (newsItem) {
-      const { width, height } = newsItem.getBoundingClientRect();
-    }
-  };
-
-  function openArticleHandler(article: Article) {
-    dispatch(saveArticle(article));
-    router.push(`/article/${article.title}`);
-  }
 
   const handleSaveArticle = (article: Article) => {
     const isArticleSaved = savedArticles.find((savedArticle) => {
@@ -62,7 +45,7 @@ function ArticleList2By2(props: {
     }
   };
 
-  const onGoToArticleHandler = (url: string): void => {
+  const openArticleHandler = (url: string): void => {
     window.open(url, '_blank');
   };
 
@@ -76,7 +59,7 @@ function ArticleList2By2(props: {
               index % 3 === 2 ? styles.lastItem : ''
             }`}
           >
-            <div onClick={onGoToArticleHandler.bind(null, article.url)}>
+            <div onClick={openArticleHandler.bind(null, article.url)}>
               <div className={styles.imageWrapper}>
                 {article.urlToImage ? (
                   <img src={article.urlToImage} alt={article.title} />
@@ -112,6 +95,6 @@ function ArticleList2By2(props: {
         ))}
     </div>
   );
-}
+};
 
 export default ArticleList2By2;

@@ -18,7 +18,7 @@ const initialState: CurrentArticle = {
     publishedAt: 'Somethig has gone wrong',
     content: 'Somethig has gone wrong',
   },
-  articleQuery: ''
+  articleQuery: '',
 };
 
 export const articleSlice = createSlice({
@@ -29,9 +29,8 @@ export const articleSlice = createSlice({
       state.article = action.payload;
     },
     searchArticleQuery: (state, action: PayloadAction<string>) => {
-      state.articleQuery = action.payload
+      state.articleQuery = action.payload;
     },
-
   },
 });
 

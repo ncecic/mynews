@@ -3,11 +3,11 @@ import { IoDisc } from 'react-icons/io5';
 import InfiniteScroll from 'react-infinite-scroller';
 import styles from '../../styles/LatestNews.module.css';
 
-type Article = {
+interface Article {
   title: string;
   publishedAt: string;
   url: string;
-};
+}
 
 const LatestNews = (): JSX.Element => {
   const [articles, setArticles] = useState<Article[]>([]);

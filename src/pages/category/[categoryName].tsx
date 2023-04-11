@@ -6,7 +6,7 @@ import ArticleList3By3 from '@/components/ArticleLists/ArticleList3By3';
 import { useEffect, useState } from 'react';
 import ArticleListMobile from '@/components/mobile/ArticleListMobile';
 
-function CategoryArticles({ data }: NewsArticleProps) {
+const CategoryArticles = ({ data }: NewsArticleProps) => {
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
@@ -19,7 +19,7 @@ function CategoryArticles({ data }: NewsArticleProps) {
   const { articles } = data;
   const router = useRouter();
 
-  const title: string = router.query.categoryName as string;
+  const title = router.query.categoryName as string;
   const titleFirstLetter = title.charAt(0).toUpperCase();
   const titleRemainingLetters = title.substring(1);
   const fullTitle = titleFirstLetter + titleRemainingLetters;
@@ -72,7 +72,7 @@ function CategoryArticles({ data }: NewsArticleProps) {
       </div>
     );
   }
-}
+};
 
 export default CategoryArticles;
 

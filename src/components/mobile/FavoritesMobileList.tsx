@@ -2,7 +2,6 @@ import { useDispatch } from 'react-redux';
 import { saveArticle } from '../../redux/articleSlice';
 import { Article } from '../NewsArticle';
 import { useRouter } from 'next/router';
-import useLocalStorage from '@/util/useLocaleStorage';
 import styles from '../../styles/mobile/ArticleListMobile.module.css';
 
 function ArticleListMobile(props: {
